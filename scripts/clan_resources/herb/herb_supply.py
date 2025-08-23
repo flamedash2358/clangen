@@ -620,7 +620,7 @@ class HerbSupply:
         condition_dict.update(treatment_cat.permanent_condition)
 
         #check if a permanent condition hasnt been revealed yet
-        time_left_hidden = treatment_cat.permanent_condition.moons_until()
+        time_left_hidden = treatment_cat.permanent_condition.moons_until
         if time_left_hidden < 0:
             return
 
