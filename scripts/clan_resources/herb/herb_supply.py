@@ -619,6 +619,11 @@ class HerbSupply:
         condition_dict.update(treatment_cat.illnesses)
         condition_dict.update(treatment_cat.permanent_condition)
 
+        #check if a permanent condition hasnt been revealed yet
+        time_left_hidden = treatment_cat.permanent_condition.moons_until()
+        if time_left_hidden < 0:
+            return
+
         for name, condition in condition_dict.items():
             # get the herbs that the condition allows as treatment
             try:
