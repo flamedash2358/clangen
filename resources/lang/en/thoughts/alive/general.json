@@ -379,7 +379,8 @@
             "Is telling r_c a story",
             "Is spending time with r_c",
             "Wonders if r_c misses {PRONOUN/r_c/poss} warrior days",
-            "Wants to visit the elders to hear a story"
+            "Wants to visit the elders to hear a story",
+			"Wonders how many of r_c's stories are real"
         ],
         "main_status_constraint": [
             "kitten",
@@ -514,7 +515,9 @@
             "Imagines riding a log down a rushing river",
             "Wonders about species of prey beyond the border",
             "Wonders about types of plants beyond the border",
-            "Fantasizes about breathing underwater to explore the depths of a lake"
+            "Fantasizes about breathing underwater to explore the depths of a lake",
+			"Daydreams about flying through the sky",
+			"Is exploring all the corners of camp"
         ],
         "main_trait_constraint": [
             "adventurous"
@@ -526,7 +529,8 @@
             "Involves the kits in a game of make-believe about traveling through a strange land",
             "Encourages the kits to explore as much as possible",
             "Tells the kits about {PRONOUN/m_c/poss} adventures",
-            "Embellishes a story about a recent border patrol for the kits"
+            "Embellishes a story about a recent border patrol for the kits",
+			"Tells the kits about a secret spot {PRONOUN/m_c/subject} found"
         ],
         "random_status_constraint": [
             "kitten"
@@ -557,7 +561,12 @@
         "id": "play_pretend_gen",
         "thoughts": [
             "Has r_c very engaged in a very, very tall tale",
-            "Is proudly watching r_c plan how to hunt down a creature {PRONOUN/m_c/subject} made up"
+            "Is proudly watching r_c plan how to hunt down a creature {PRONOUN/m_c/subject} made up",
+			"Snickers to {PRONOUN/m_c/self} as r_c fights an imaginary beast",
+			"Is egging on r_c's make believe game by being a scary fox",
+			"Is pretending to build a new den with r_c",
+			"Is pretending to be hunted by r_c",
+			"Is pretending to hunt r_c"
         ],
         "main_trait_constraint": [
             "adventurous",
@@ -5483,7 +5492,8 @@
     {
         "id": "deaf_congenital_adolescent_to_alive_kit",
         "thoughts": [
-            "Teaches tail signals to the kits"
+            "Teaches tail signals to the kits",
+			"Teaches paw signals to the kits"
         ],
         "perm_conditions": {
             "m_c": [
@@ -5504,6 +5514,7 @@
         "id": "deaf_congenital_kitten_to_alive_med",
         "thoughts": [
             "Is learning tail signals from r_c",
+			"Is learning paw signals from r_c",
             "Giggles when r_c pokes around in {PRONOUN/m_c/poss} ears. Ticklish!",
             "Learns about sound with a fascinated expression"
         ],
@@ -5527,6 +5538,7 @@
         "id": "deaf_adolescent_to_alive_med",
         "thoughts": [
             "Is practicing tail signals with r_c",
+			"Is practicing paw signals with r_c",
             "Giggles when r_c pokes around in {PRONOUN/m_c/poss} ears. Ticklish!"
         ],
         "perm_conditions": {
@@ -5549,6 +5561,7 @@
         "id": "deaf_adolescent_to_alive_deaf_adult",
         "thoughts": [
             "Is talking with r_c with tail signals",
+			"Is talking with r_c with paw signals",
             "Rubs cheeks with r_c to let the older cat feel {PRONOUN/m_c/poss} purr",
             "Appreciates r_c's company",
             "Can relax around r_c",
@@ -5683,7 +5696,8 @@
     {
         "id": "lost_leg_gen_to_alive_kit",
         "thoughts": [
-            "Is exaggerating the tale of how {PRONOUN/m_c/subject} lost {PRONOUN/m_c/poss} leg to the kits"
+            "Is exaggerating the tale of how {PRONOUN/m_c/subject} lost {PRONOUN/m_c/poss} leg to the kits",
+			"Is amused by the kits attempting to walk on three legs with {PRONOUN/m_c/object}"
         ],
         "perm_conditions": {
             "m_c": [
@@ -5708,7 +5722,8 @@
             "Points to something with a forepaw",
             "Flicks {PRONOUN/m_c/poss} tail stub in annoyance",
             "Rolls {PRONOUN/m_c/poss} eyes when a Clanmate says they feel bad for {PRONOUN/m_c/object}",
-            "Bets the rest of {PRONOUN/m_c/poss} tail on the outcome of a spar with r_c"
+            "Bets the rest of {PRONOUN/m_c/poss} tail on the outcome of a spar with r_c",
+			"Twitches {PRONOUN/m_c/poss} whiskers to show {PRONOUN/m_c/poss} annoyance with r_c"
         ],
         "perm_conditions": {
             "m_c": [
@@ -5722,7 +5737,9 @@
         "thoughts": [
             "Misses being able to do tail signals",
             "Finds balancing harder now, though {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} improving",
-            "Bites r_c for saying {PRONOUN/m_c/poss} tail looks like a dog's now"
+            "Bites r_c for saying {PRONOUN/m_c/poss} tail looks like a dog's now",
+			"Swats at r_c's tail knowing {PRONOUN/r_c/subject} can't do it back",
+			"Is practicing {PRONOUN/m_c/poss} balance when jumping"
         ],
         "perm_conditions": {
             "m_c": [
@@ -5779,7 +5796,8 @@
             "Is especially annoyed with {PRONOUN/m_c/poss} allergies today",
             "Is questioning why StarClan won't cure {PRONOUN/m_c/poss} allergies",
             "Is wondering if {PRONOUN/m_c/subject} {VERB/m_c/are/is} sick or if {PRONOUN/m_c/poss} allergies are especially bad today",
-			      "Is struggling to smell something"
+			"Is struggling to smell something",
+			"Coughs after smelling something strong"
         ],
         "perm_conditions": {
             "m_c": [
@@ -5806,7 +5824,10 @@
             "Is assuring r_c that {PRONOUN/m_c/subject} {VERB/m_c/aren/isn}'t sick, it's just allergies",
             "Is unsure if {PRONOUN/m_c/subject} should apologize when r_c complains about {PRONOUN/m_c/poss} allergies",
             "Is rolling {PRONOUN/m_c/poss} eyes when r_c insists {PRONOUN/m_c/subject} should talk to the medicine cat",
-            "Playfully swats r_c when {PRONOUN/r_c/subject} {VERB/r_c/say/says} {PRONOUN/m_c/subject} sounds like an elder"
+            "Playfully swats r_c when {PRONOUN/r_c/subject} {VERB/r_c/say/says} {PRONOUN/m_c/subject} sounds like an elder",
+			"Accidentally spooked r_c with {PRONON/m_c/poss} sneeze",
+			"Thanks r_c for pointing out some snot on {PRONOUN/m_c/poss} nose",
+			"Totally doesn't intentionally sneeze on r_c"
         ],
         "perm_conditions": {
             "m_c": [
@@ -5822,7 +5843,8 @@
         "thoughts": [
             "Purrs when r_c takes care to bring {PRONOUN/m_c/object} flowers that don't trigger {PRONOUN/m_c/poss} allergies",
             "Answers all the questions r_c has about {PRONOUN/m_c/poss} allergies",
-            "Is playing a game with r_c where they try to find what flowers make {PRONOUN/m_c/poss} sneeze the hardest"
+            "Is playing a game with r_c where they try to find what flowers make {PRONOUN/m_c/poss} sneeze the hardest",
+			"Is telling r_c that if {PRONOUN/r_c/subject} {VERB/don't/doesn't} behave that {PRONOUN/r_c/subject} will get 'bluecough' too"
         ],
         "perm_conditions": {
             "m_c": [
@@ -5857,7 +5879,8 @@
         "thoughts": [
             "Is nervous to be around r_c incase {PRONOUN/m_c/subject} {VERB/m_c/get/gets} sick too",
             "Is comforting r_c about the annoyances of {PRONOUN/r_c/poss} symptoms",
-            "Is sharing stories of {PRONOUN/m_c/poss} own experiences to comfort r_c"
+            "Is sharing stories of {PRONOUN/m_c/poss} own experiences to comfort r_c",
+			"Jokes with r_c that {PRONOUN/m_c/subject} {VERB/m_c/have/has} 'bluecough'"
         ],
         "perm_conditions": {
             "m_c": [
