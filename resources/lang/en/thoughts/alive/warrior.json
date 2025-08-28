@@ -195,6 +195,47 @@
         ]
     },
     {
+        "id": "warrior_gen_medicine_cat_app",
+        "thoughts": [
+            "Offers to let r_c practice on {PRONOUN/m_c/object}",
+            "Asks r_c to teach {PRONOUN/m_c/object} about a herb {PRONOUN/r_c/subject} learned recently",
+            "Reassures r_c while {PRONOUN/r_c/subject} treat a wound",
+            "Is glad to see r_c learning so quickly",
+            "Offers to teach r_c some battle moves",
+            "Offers to teach r_c hunting"
+        ],
+        "random_status_constraint": [
+            "medicine cat apprentice"
+        ],
+        "random_living_status": [
+            "living"
+        ]
+    },
+    {
+        "id": "warrior_gen_dead_medicine_cat_app",
+        "thoughts": [
+            "Wonders if r_c still has to learn herbs in starclan"
+        ],
+        "random_status_constraint": [
+            "medicine cat apprentice"
+        ],
+        "random_living_status": [
+            "starclan"
+        ]
+    },
+    {
+        "id": "warrior_gen_dead_DF_medicine_cat_app",
+        "thoughts": [
+            "Is afriad of what r_c could've done to end up in the Dark Forest"
+        ],
+        "random_status_constraint": [
+            "medicine cat apprentice"
+        ],
+        "random_living_status": [
+            "darkforest"
+        ]
+    },
+    {
         "id": "warrior_gen_medicine_cat",
         "thoughts": [
             "Plans to visit the medicine cat",
@@ -216,7 +257,9 @@
     {
         "id": "warrior_gen_dead_medicine_cat",
         "thoughts": [
-            "Feels like r_c was leading {PRONOUN/m_c/object} on a wild chase for a hidden herb patch"
+            "Feels like r_c was leading {PRONOUN/m_c/object} on a wild chase for a hidden herb patch",
+            "Heard the voice of r_c warning {PRONOUN/m_c/object} to avoid taking a precarious route",
+            "Grumbles after dreaming of r_c chastising {PRONOUN/m_c/poss} about avoiding injuries"
         ],
         "random_status_constraint": [
             "medicine cat"
@@ -246,6 +289,39 @@
         ]
     },
     {
+        "id": "warrior_gen_dead_warrior",
+        "thoughts": [
+            "Wonders how difficult sparring r_c would've been",
+            "Wonders what r_c's favorite battle move was",
+            "Wonders what strategies r_c used to hunt",
+            "Wonders what r_c's favorite border was to patrol",
+            "Dreamt of training with r_c",
+            "Saw r_c sleeping in {PRONOuN/r_c/poss} nest for a breif moment",
+            "Saw r_c patroling alongside {PRONOUN/m_c/object} for a moment"
+        ],
+        "random_status_constraint": [
+            "warrior"
+        ],
+        "random_living_status": [
+            "starclan"
+        ]
+    },
+    {
+        "id": "warrior_gen_dead_DF_warrior",
+        "thoughts": [
+            "Denied r_c's proposal to train with {PRONOUN/r_c/object}",
+            "Prickles at seeing r_c's shadowy form while patroling",
+            "Heard the whispers of r_c to start a fight",
+            "Saw a shadowy cat in {PRONOUN/m_c/poss} dreams"
+        ],
+        "random_status_constraint": [
+            "warrior"
+        ],
+        "random_living_status": [
+            "darkforest"
+        ]
+    },
+    {
         "id": "warrior_gen_mediator",
         "thoughts": [
             "Reports to r_c about a recent border dispute with o_c_n",
@@ -265,6 +341,34 @@
         ],
         "random_living_status": [
             "living"
+        ]
+    },
+    {
+        "id": "warrior_gen_dead_mediator",
+        "thoughts": [
+            "Had r_c give {PRONOUN/m_c/object} advice during a troubled dream",
+            "Wonders how many arguments r_c has to mediate in Starclan",
+            "Felt the disaproving look of r_c during a border dispute"
+        ],
+        "random_status_constraint": [
+            "mediator"
+        ],
+        "random_living_status": [
+            "starclan"
+        ]
+    },
+    {
+        "id": "warrior_gen_dead_DF_mediator",
+        "thoughts": [
+            "Heard the voice of r_c egging on a fight",
+            "Prickles at realizing r_c tried to manipulate {PRONOUN/m_c/object} during a dream",
+            "Wonders just how many relationships r_c had sabotaged"
+        ],
+        "random_status_constraint": [
+            "mediator"
+        ],
+        "random_living_status": [
+            "darkforest"
         ]
     },
     {
@@ -527,7 +631,9 @@
         "id": "confident_warrior",
         "thoughts": [
             "Takes lead during a stressful skrimish",
-            "Volunteers to lead a patrol"
+            "Volunteers to lead a patrol",
+            "Successfully lands a risky jump",
+            "Tells off a o_c_n warrior infront of their patrol"
         ],
         "main_trait_constraint": [
             "confident"
