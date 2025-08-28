@@ -136,9 +136,9 @@
         "thoughts": [
             "Feels unnerved knowing that a cat of such high rank ended up in the Dark Forest",
             "Wonders if the current deputy can be trusted knowing r_c ended up in the Dark Forest",
-            "Swore that {PRONOUN/m_c/subject} felt the disapproving glare of r_C at letting a rogue go so easily",
-            "Swore that {PRONOUN/m_c/subject} felt the disapproving glare of r_C at letting a loner go so easily",
-            "Swore that {PRONOUN/m_c/subject} felt the disapproving glare of r_C at letting a kittypet go so easily"
+            "Swore that {PRONOUN/m_c/subject} felt the disapproving glare of r_c at letting a rogue go so easily",
+            "Swore that {PRONOUN/m_c/subject} felt the disapproving glare of r_c at letting a loner go so easily",
+            "Swore that {PRONOUN/m_c/subject} felt the disapproving glare of r_c at letting a kittypet go so easily"
         ],
         "random_status_constraint": [
             "deputy"
@@ -201,13 +201,28 @@
             "Is helping to escort the medicine cat to gather herbs",
             "Is being taught by r_c some basic herbs",
             "Is being told off by the medicine cat for getting hurt so recklessly",
-            "Is curious what r_c gets up to in {PRONOUN/r_c/poss} free time"
+            "Is curious what r_c gets up to in {PRONOUN/r_c/poss} free time",
+            "Is asking r_c about a strange dream {PRONOUN/m_c/subject} had",
+            "Is frantically telling r_c about a sign {PRONOUN/m_c/subject} recieved",
+            "Wonders if {PRONOUN/m_c/subject} should tell r_c about the odd dream {PRONOUN/m_c/subject} had"
         ],
         "random_status_constraint": [
             "medicine cat"
         ],
         "random_living_status": [
             "living"
+        ]
+    },
+    {
+        "id": "warrior_gen_dead_medicine_cat",
+        "thoughts": [
+            "Feels like r_c was leading {PRONOUN/m_c/object} on a wild chase for a hidden herb patch"
+        ],
+        "random_status_constraint": [
+            "medicine cat"
+        ],
+        "random_living_status": [
+            "starclan"
         ]
     },
     {
