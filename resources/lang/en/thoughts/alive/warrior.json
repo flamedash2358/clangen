@@ -20,6 +20,34 @@
         ]
     },
     {
+        "id": "warrior_gen_dead_kits",
+        "thoughts": [
+            "Wonders if {PRONOUN/m_c/subject} would've been a good mentor for r_c",
+            "Wonders if kits in Starclan become apprentices eventually",
+            "Swore that r_c was getting a free badger ride on {PRONOUN/m_c/object}"
+        ],
+        "random_status_constraint": [
+            "kitten"
+        ],
+        "random_living_status": [
+            "starclan"
+        ]
+    },
+    {
+        "id": "warrior_gen_dead_DF_kits",
+        "thoughts": [
+            "Shivers after dreaming of a dark and murky kit",
+            "Refuses to believe that kits could go to the Dark Forest",
+            "Shutters swearing that {PRONOUN/m_c/subject} saw a muddy and shadowy r_c in the nursery"
+        ],
+        "random_status_constraint": [
+            "kitten"
+        ],
+        "random_living_status": [
+            "darkforest"
+        ]
+    },
+    {
         "id": "warrior_gen_alive_apprentice",
         "thoughts": [
             "Has the apprentices very engaged in a very, very tall tale",
@@ -27,13 +55,50 @@
             "Is listening in to apprentice gossip",
             "Is comforting r_c about training",
             "Is giving r_c tips for hunting",
-            "Is giving r_c battle tricks"
+            "Is giving r_c battle tricks",
+            "Is giving r_c a little extra training",
+            "Is sharing stories of {PRONOUN/m_c/poss} younger days",
+            "Is helping r_c with a difficult battle move",
+            "Complains about apprentice chores to cheer r_c up",
+            "Baps r_c lightly on the head when {PRONOUN/r_c/subject} complains about another warrior",
+            "Commiserates with r_c about how annoying a certain battle move is",
+            "Is shown something by r_c that {PRONOUN/m_c/subject} didn't learn",
+            "Is motivated to train by r_c's progress"
         ],
         "random_status_constraint": [
             "apprentice"
         ],
         "random_living_status": [
             "living"
+        ]
+    },
+    {
+        "id": "warrior_gen_dead_apprentice",
+        "thoughts": [
+            "Wonders what r_c's warrior name would've been",
+            "Could've sworn that {PRONOUN/m_c/subject} saw r_c training alongside {PRONOUN/m_c/object}",
+            "Is curious if apprentices recieve training in Starclan",
+            "Wonders if r_c is watching {PRONOUN/m_c/object} train"
+        ],
+        "random_status_constraint": [
+            "apprentice"
+        ],
+        "random_living_status": [
+            "starclan"
+        ]
+    },
+    {
+        "id": "warrior_gen_dead_DF_apprentice",
+        "thoughts": [
+            "Swore that {PRONOUN/m_c/subject} saw r_c's shadowy form watching {PRONOUN/m_c/object} train with disgust",
+            "Wonders what r_c could've done so young to deserve going to the Dark Forest",
+            "Feels r_c's envious eyes watching {PRONOUN/m_c/object}"
+        ],
+        "random_status_constraint": [
+            "apprentice"
+        ],
+        "random_living_status": [
+            "darkforest"
         ]
     },
     {
@@ -45,18 +110,50 @@
             "Asks r_c if {PRONOUN/m_c/subject} can go training today",
             "Is reporting to r_c about something concerning on the border",
             "Is asking r_c for advice about something",
-            "Is unamused after a brief disagreement with r_c"
+            "Is unamused after a brief disagreement with r_c",
+            "Is asking r_c if {PRONOUN/m_c/subject} could not patrol today"
         ],
         "random_status_constraint": [
             "deputy"
         ]
     },
     {
+        "id": "warrior_gen_dead_deputy",
+        "thoughts": [
+            "Wonders if r_c would've sent {PRONOUN/m_c/object} on dawn patrol",
+            "Hears r_c warning {PRONOUN/m_c/poss} to avoid going on patrol today",
+            "Wonders if r_c is organizing patrols in Starclan"
+        ],
+        "random_status_constraint": [
+            "deputy"
+        ],
+        "random_living_status": [
+            "starclan"
+        ],
+    },
+    {
+        "id": "warrior_gen_dead_DF_deputy",
+        "thoughts": [
+            "Feels unnerved knowing that a cat of such high rank ended up in the Dark Forest",
+            "Wonders if the current deputy can be trusted knowing r_c ended up in the Dark Forest",
+            "Swore that {PRONOUN/m_c/subject} felt the disapproving glare of r_C at letting a rogue go so easily",
+            "Swore that {PRONOUN/m_c/subject} felt the disapproving glare of r_C at letting a loner go so easily",
+            "Swore that {PRONOUN/m_c/subject} felt the disapproving glare of r_C at letting a kittypet go so easily"
+        ],
+        "random_status_constraint": [
+            "deputy"
+        ],
+        "random_living_status": [
+            "darkforest"
+        ],
+    },
+    {
         "id": "gen_older_warrior",
         "thoughts": [
             "Tries to set a good example for younger cats",
             "Thinks back on {PRONOUN/m_c/poss} younger days",
-            "Remembers that younger cats look up to {PRONOUN/m_c/object}"
+            "Remembers that younger cats look up to {PRONOUN/m_c/object}",
+            "Wishes that {PRONOUN/m_c/subject} had as much energy now as {PRONOUN/m_c/subject} did then"
         ],
         "main_age_constraint": [
             "senior",
@@ -68,11 +165,43 @@
         ]
     },
     {
+        "id": "gen_even_older_warrior",
+        "thoughts": [
+            "Hopes that {PRONOUN/m_c/subject} made the clan proud with what {PRONOUN/m_c/subject} {VERB/m_c/have/has} done",
+            "Wonders how retirement will be",
+            "Wishes that {PRONOUN/m_c/subject} had more time to serve the clan"
+        ],
+        "main_age_constraint": [
+            "senior",
+            "senior adult"
+        ],
+        "random_living_status": [
+            "living"
+        ]
+    },
+    {
+        "id": "gen_retire_already_warrior",
+        "thoughts": [
+            "Stubbornly refuses to retire",
+            "Knows that {PRONOUN/m_c/subject} still {VERB/m_c/have/has} some youthful energy left",
+            "Looks at the elder's den more often, knowing that soon {PRONOUN/m_c/subject} will be sleeping there",
+            "Wonders when the right time to retire is"
+        ],
+        "main_age_constraint": [
+            "senior"
+        ],
+        "random_living_status": [
+            "living"
+        ]
+    },
+    {
         "id": "warrior_gen_medicine_cat",
         "thoughts": [
             "Plans to visit the medicine cat",
             "Is helping to escort the medicine cat to gather herbs",
-            "Is being taught by r_c some basic herbs"
+            "Is being taught by r_c some basic herbs",
+            "Is being told off by the medicine cat for getting hurt so recklessly",
+            "Is curious what r_c gets up to in {PRONOUN/r_c/poss} free time"
         ],
         "random_status_constraint": [
             "medicine cat"
@@ -96,6 +225,56 @@
         ],
         "random_status_constraint": [
             "warrior"
+        ],
+        "random_living_status": [
+            "living"
+        ]
+    },
+    {
+        "id": "warrior_gen_mediator",
+        "thoughts": [
+            "Reports to r_c about a recent border dispute with o_c_n",
+            "Tells r_c about a new loner in the territory",
+            "Tells r_c about a new rogue group in the territory",
+            "Tells r_c about a new kittypet in the territory",
+            "Reluctantly sits down for a conflict-resolution talk with r_c",
+            "Goes to r_c for help with solving a dispute",
+            "Asks r_c to help decide who wins a bet",
+            "Teaches r_c a battle move to help defend {PRONOUN/r_c/self} incase somethings goes awry",
+            "Is asked to assist a mediator with solving a dispute",
+            "Is asked to travel with a mediator to solve a potentially dangerous diplomatic issue",
+            "Is being chastised by r_c for causing a diplomatic incident"
+        ],
+        "random_status_constraint": [
+            "mediator"
+        ],
+        "random_living_status": [
+            "living"
+        ]
+    },
+    {
+        "id": "adventurous_warrior",
+        "thoughts": [
+            "Explored a new part of the territory",
+            "Sneaked off during patrol to check out a neat spot",
+            "Tried out a new hunting technique",
+            "Came up with a new ambush strategy",
+            "Looks into the territory of another clan with interest",
+            "Snuck into another clan's territory to explore",
+            "Wants to come up with a new battle move",
+            "Decides to go off on a scouting mission"
+        ],
+        "main_trait_constraint": [
+            "adventurous"
+        ]
+    },
+    {
+        "id": "adventurous_warrior_to_other",
+        "thoughts": [
+            "Tells r_c about a new spot {PRONOUN/m_c/subject} found"
+        ],
+        "main_trait_constraint": [
+            "adventurous"
         ],
         "random_living_status": [
             "living"
@@ -132,6 +311,76 @@
         ]
     },
     {
+        "id": "arrogant_warrior",
+        "thoughts": [
+            "Scoffs after missing a catch",
+            "Brags about how much prey {PRONOUN/m_c/subject} caught to another clan's border patrol",
+            "Keeps hunting at the same empty spot",
+            "Is proud of how much prey {PRONOUN/m_c/subject} caught",
+            "Almost got injured fighting off a rogue",
+            "Refuses to try a different hunting strategy"
+        ],
+        "main_trait_constraint": [
+            "arrogant"
+        ]
+    },
+    {
+        "id": "bloodthirsty_warrior",
+        "thoughts": [
+            "Comes back to camp with the blood of a rogue on {PRONOUN/m_c/poss} paws",
+            "Proudly brags about how injured {PRONOUN/m_c/subject} made a rogue",
+            "Is itching for a fight at the border",
+            "Is itching for a war to break out",
+            "Flexes {PRONOUN/m_c/poss} claws when talking to another clan's patrol",
+            "Seems to always come back with some sort of injury",
+            "Brags about fighitng off a fox single-pawed",
+            "Goes into great detail when talking about a fight on patrol",
+            "Wishes that {PRONOUN/m_c/subject} could use {PRONOUN/m_c/poss} claws more",
+            "Knows that {PRONOUN/m_c/subject} will protect the clan by any means nessicary",
+            "Started an unnessicary fight during border patrol",
+            "Swipes at another clan's patrol when they insult c_n",
+            "Fought with a loner wandering through the territory",
+            "Chased off a dog during dawn patrol",
+            "Does extra battle training to make sure {PRONOUN/m_c/subject} can protect c_n when the time comes",
+            "Took out {PRONOUN/m_c/poss} anger on a fox",
+            "Gave a kittypet a clawmark as a lesson to stay away"
+        ],
+        "main_trait_constraint": [
+            "bloodthirsty"
+        ]
+    },
+    {
+        "id": "bold_warrior",
+        "thoughts": [
+            "Boldly chases off a rogue",
+            "Charges head first into a skrimish",
+            "Takes the lead in casing off a fox from the territory",
+            "Prefers charging down prey instead of waiting for it",
+            "Confidently talks to another clan's patrol",
+            "Insults another clan's patrol right to their faces",
+            "Defends c_n's honor during a gathering",
+            "Confidently executes a battle move during training"
+        ],
+        "main_trait_constraint": [
+            "bold"
+        ]
+    },
+    {
+        "id": "calm_warrior",
+        "thoughts": [
+            "Remains calm after a o_c_n patrol insults {PRONOUN/m_c/object}",
+            "Waits patiently for prey to come to {PRONOUN/m_c/object} while hunting",
+            "Sets up a successful ambush to chase away a rogue",
+            "Was able to keep a cool head during a heated skrimish",
+            "Breaks composure after a close call on a Thunderpath",
+            "Was able to persuade a loner to stay off the territory without a fight",
+            "Hunts using patience"
+        ],
+        "main_trait_constraint": [
+            "calm"
+        ]
+    },
+    {
         "id": "careful_warrior",
         "thoughts": [
             "Is dutifully standing guard outside of camp",
@@ -165,6 +414,20 @@
         ]
     },
     {
+        "id": "charismatic_warrior",
+        "thoughts": [
+            "Is able to easily convince a rogue to leave the territory",
+            "Is able to easily convince a loner to leave the territory",
+            "Is able to easily convince a kittypet to leave the territory",
+            "Talks another clan's border patrol's ears off",
+            "Is frustrated when a rogue won't listen to {PRONOUN/m_c/object}",
+            "Is baffled when a o_c_n border patrol insults {PRONOUN/m_c/object}"
+        ],
+        "main_trait_constraint": [
+            "ambitious"
+        ]
+    },
+    {
         "id": "childish_warrior",
         "thoughts": [
             "Is whining about Clan duties",
@@ -177,6 +440,20 @@
         ],
         "main_trait_constraint": [
             "childish"
+        ]
+    },
+    {
+        "id": "cold_warrior",
+        "thoughts": [
+            "Wants to go on a solo hunting patrol",
+            "Mutters an insult when encountering a o_c_n patrol",
+            "Scowls at a bird letting out a warning call",
+            "Has a bad feeling about a certain part of the territory",
+            "Makes a bad joke with a o_c_n border patrol",
+            "Decides against catching a strange acting piece of prey"
+        ],
+        "main_trait_constraint": [
+            "cold"
         ]
     },
     {
@@ -211,6 +488,50 @@
         ],
         "random_living_status": [
             "living"
+        ]
+    },
+    {
+        "id": "competative_warrior",
+        "thoughts": [
+            "Purrs after catching more prey this moon than the last",
+            "Hisses after missing a catch",
+            "Trains a move until perfection",
+            "Feels embarrased after forgetting a battle move",
+            "Decides to try and go on as many patrols as possible this moon",
+            "Wants to get a rival from o_c_n",
+            "Finds a o_c_n cat to be {PRONOUN/m_c/poss} rival during a gathering",
+            "Itches for a chance to show off {PRONOUN/m_c/poss} battle moves",
+            "Challenges a rogue to a spar to get them to leave the territory",
+            "Catches a HUGE snake"
+        ],
+        "main_trait_constraint": [
+            "ambitious"
+        ]
+    },
+    {
+        "id": "confident_warrior",
+        "thoughts": [
+            "Takes lead during a stressful skrimish",
+            "Volunteers to lead a patrol"
+        ],
+        "main_trait_constraint": [
+            "confident"
+        ]
+    },
+    {
+        "id": "cunning_warrior",
+        "thoughts": [
+            "Is able to trick a rogue into leaving the territory",
+            "Is able to trick a loner into leaving the territory",
+            "Is able to trick a kittypet into leaving the territory",
+            "Was able to persuade a rogue to give {PRONOUN/m_c/object} their fresh-kill",
+            "Creates a mock trap to catch some prey",
+            "Uses a twoleg trap against a fox",
+            "Uses a twoleg trap against a dog",
+            "Tricks a o_c_n patrol, insisting {PRONOUN/m_c/subject} would never cross the border"
+        ],
+        "main_trait_constraint": [
+            "cunning"
         ]
     },
     {
@@ -298,7 +619,8 @@
             "Is telling the leader details about {PRONOUN/m_c/poss} recent patrol",
             "Listened to the leader's orders recently, despite {PRONOUN/m_c/poss} own doubts",
             "Proclaimed {PRONOUN/m_c/poss} unwavering loyalty to the leader",
-            "Is suspicious of a Clanmate who questions their leader"
+            "Is suspicious of a Clanmate who questions their leader",
+            "Straightens up when the leader stares at {PRONOUN/m_c/object}"
         ],
         "main_trait_constraint": [
             "loyal"
@@ -398,6 +720,25 @@
         ]
     },
     {
+        "id": "troublesome_warrior_to_medicine_cat",
+        "thoughts": [
+            "Is being lectured yet again by the medicine cat",
+            "Is being chastised about saftey by the medicine cat",
+            "Is being forced to learn about basic wound care by r_c",
+            "Jokes about being a regular visitor to r_c, who is incredibly unamused to see {PRONOUN/m_c/object} again so soon",
+            "Is being told that {PRONOUN/m_c/subject} {VERB/m_c/have/has} become a test subject for new treatments by r_c"
+        ],
+        "main_trait_constraint": [
+            "troublesome"
+        ],
+        "random_status_constraint": [
+            "medicine cat"
+        ],
+        "random_living_status": [
+            "living"
+        ]
+    },
+    {
         "id": "warrior_parent_alive_kits",
         "thoughts": [
             "Excitedly plays games with r_c, letting {PRONOUN/r_c/object} win every time",
@@ -406,7 +747,9 @@
             "Carries r_c to the nursery because {PRONOUN/r_c/subject} fell asleep",
             "Is scolding r_c for almost being reckless",
             "Hopes {PRONOUN/m_c/poss} kits arent getting into too much trouble",
-            "Is in awe with how fast r_c is growing"
+            "Is in awe with how fast r_c is growing",
+            "Teaches r_c a simple battle move to keep {PRONOUN/r_c/object} occupied",
+            "Purrs in amusement when r_c complains about having to take a nap"
         ],
         "relationship_constraint": [
             "parent/child"
