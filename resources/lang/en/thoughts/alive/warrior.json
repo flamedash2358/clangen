@@ -672,6 +672,19 @@
         ]
     },
     {
+        "id": "faithful_warrior",
+        "thoughts": [
+            "Swears that {PRONOUN/m_c/subject} will do anything to keep the clan safe",
+            "Refuses to break the warrior code",
+            "Reminds a o_c_n warrior about the warrior code when being flirted with",
+            "Makes sure to catch extra prey",
+            "Dutifully stays on task during patrol"
+        ],
+        "main_trait_constraint": [
+            "faithful"
+        ]
+    },
+    {
         "id": "fierce_warrior",
         "thoughts": [
             "Is showing off {PRONOUN/m_c/poss} battle moves",
@@ -734,6 +747,108 @@
         ]
     },
     {
+        "id": "flamboyant_warrior",
+        "thoughts": [
+            "Is late to dawn patrol because {PRONOUN/m_c/subject} needed {PRONOUN/m_c/poss} beauty sleep",
+            "Dramatically complains about getting dirt on {PRONOUN/m_c/poss} beautifully shiny pelt",
+            "Makes sure to jump with elegance",
+            "Brags about {PRONOUN/m_c/self} to a o_c_n patrol",
+            "Dramatically retells a story to a o_c_n patrol",
+            "Fights with extra flare",
+            "Trains a battle move that is more flashy than useful",
+            "Catches a piece of prey with style"
+        ],
+        "main_trait_constraint": [
+            "flamboyant"
+        ]
+    },
+    {
+        "id": "gloomy_warrior",
+        "thoughts": [
+            "Is stuck thinking on a missed catch",
+            "Imagines the worst case scenarios during a border patrol",
+            "Wants to go lay down in {PRONOUN/m_c/poss} nest",
+            "Finds an issue in how {PRONOUN/m_c/subject} {VERB/m_c/are/is} practicing a move",
+            "Is feeling more down than usual today",
+            "Helped a loner",
+            "Helped a kittypet",
+            "Persuaded a rogue to leave the territory"
+        ],
+        "main_trait_constraint": [
+            "gloomy"
+        ]
+    },
+    {
+        "id": "grumpy_warrior",
+        "thoughts": [
+            "Mutters curses after missing a catch",
+            "Stares at a o_c_n patrol despite them throwing insults at {PRONOUN/m_c/object}",
+            "Refuses to entertain a rogue's antics",
+            "Refuses to entertain a loner's antics",
+            "Refuses to entertain a kittypet' antics",
+            "Sighs at having to chase off <i>another</i> fox",
+            "Snaps at a o_c_n patrol to mind their own buisness",
+            "Accidentally catches the most prey this moon",
+            "Leaves to go hunting unannounced",
+            "Goes on a walk for some peace and quiet",
+            "Finds a spot to sunbathe in the territory"
+        ],
+        "main_trait_constraint": [
+            "grumpy"
+        ]
+    },
+    {
+        "id": "insecure_warrior",
+        "thoughts": [
+            "Trains from dawn to dusk to perfect a move {PRONOUN/m_c/subject} forgot",
+            "Trains {PRONOUN/m_c/poss} hunting pounce after missing a catch",
+            "Feels bad for missing a catch",
+            "Answered a question that a o_c_n apprentice had",
+            "Made a new friend at the gathering",
+            "Hopes that {PRONOUN/m_c/subject} {VERB/m_c/aren't/isn't} the weakest link",
+            "Wants to better {PRONOUN/m_c/self} to avoid making another mouse-brained mistake"
+        ],
+        "main_trait_constraint": [
+            "insecure"
+        ]
+    },
+    {
+        "id": "lonesome_warrior",
+        "thoughts": [
+            "Doesn't talk to anycat during the gathering",
+            "Goes out to hunt without asking",
+            "Opts to patrol alone today",
+            "Avoids a o_c_n patrol when hunting by the border",
+            "Grumbles when being forced to converse with another cat",
+            "Notices a pretty butterfly on patrol",
+            "Hears a bird no one else does",
+            "Decides to train alone",
+            "Doesn't want to be disturbed during patrol"
+        ],
+        "main_trait_constraint": [
+            "lonesome"
+        ]
+    },
+    {
+        "id": "loving_warrior",
+        "thoughts": [
+            "Takes care to catch extra prey",
+            "Offers comfort to a o_c_n apprentice during a gathering",
+            "Wishes that the clan didn't have to chase off loners and kittypets",
+            "Uses words instead of violence to get other cats to leave",
+            "Almost got tricked by a o_c_n patrol",
+            "Strikes up friendly conversation with a o_c_n patrol",
+            "Practices a move with the intent to keep the clan safe",
+            "Hesitates when a skrimish starts on the border",
+            "Doesn't want to hurt anycat",
+            "Hopes that c_n remains peaceful with the other clans",
+            "Silently hopes that Starclan will keep everycat safe"
+        ],
+        "main_trait_constraint": [
+            "loving"
+        ]
+    },
+    {
         "id": "loyal_warrior_to_leader",
         "thoughts": [
             "Is listening to the leader intently",
@@ -771,13 +886,105 @@
         ]
     },
     {
+        "id": "nervous_warrior",
+        "thoughts": [
+            "Worries that {PRONOUN/m_c/subject} might have offended o_c_n during a conversation at the border",
+            "Struggles to convince a loner to leave",
+            "Struggles to convince a kittypet to leave",
+            "Struggles to convince a rogue to leave",
+            "Hesitates too long during patrol and gets hurt",
+            "Hesitates too long and misses a catch",
+            "Worries about forgetting a battle move in a crucial moment",
+            "Jumps at every little sound while on patrol",
+            "Freezes up when a monster runs past on a Thunderpath",
+            "Wishes that {PRONOUN/m_c/subject} was less worried whenever seeing o_c_n",
+            "Whips around to stare at distant barking",
+            "Gets startled by a raptor's cry",
+            "Jumps when a bug lands on {PRONOUN/m_c/poss} face",
+            "Cautiously helps a o_c_n apprentice on the border",
+            "Uses {PRONOUN/m_c/poss} caution to avoid a rogue ambush",
+            "Was able to avoid a dangerous situation by being cautious",
+            "Overthought a fight with a fox and ended up scaring it off without issue",
+            "Overthinks a pretty butterfly being a sign",
+            "Overthinks a cloud being a sign",
+            "Wonders if Starclan is telling {PRONOUN/m_c/poss} something or if {PRONOUN/m_c/subject} {VERB/m_c/are/is} being paranoid",
+            "Struggles to sleep after hearing a dog bark in the distance",
+            "Stares intensely at a rustling bush during patrol"
+        ]
+        "main_trait_constraint": [
+            "nervous"
+        ]
+    },
+    {
+        "id": "oblivious_warrior",
+        "thoughts": [
+            "Walked straight into something during patrol",
+            "Accidentally crossed the o_c_n border",
+            "Completely missed a mouse while hunting",
+            "Completely missed a bird while hunting",
+            "Completely missed a snake while hunting",
+            "Completely missed a rabbit while hunting",
+            "Offends a o_c_n warrior without realizing it",
+            "Brushes off a rude comment by a o_c_n warrior",
+            "Ignores a loner's antics",
+            "Ignores a rogue's antics",
+            "Ignores a kittypet's antics",
+            "Accidentally walked into an ambush",
+            "Stepped on a bug by mistake during patrol",
+            "Slipped whilst patroling"
+        ],
+        "main_trait_constraint": [
+            "oblivious"
+        ]
+    },
+    {
+        "id": "playful_warrior",
+        "thoughts": [
+            "Makes a game out of a boring patrol",
+            "Decides to collect pretty flowers instead of patroling the same border again",
+            "Played a game with a o_c_n apprentice on patrol",
+            "Wishes border patrols were more fun",
+            "Derails a training session with a really funny joke",
+            "Breaks the ice with a o_c_n patrol",
+            "Is able to lighten the mood of a patrol",
+            "Bursts out laughing when two mice begin fighting",
+            "Laughs at a Twoleg while on patrol",
+            "Makes a funny face when hunting",
+            "Pranks a o_c_n patrol by scaring them",
+            "Has to stifle a laugh when a o_c_n warrior stumbles on patrol"
+        ],
+        "main_trait_constraint": [
+            "playful"
+        ]
+    },
+    {
+        "id": "rebellious_warrior",
+        "thoughts": [
+            "Makes a friend at the gathering and agrees to meet them at the border",
+            "Refuses to let border lines stop {PRONOUN/m_c/object} from helping others",
+            "Thinks that the borders being so precise is ridiculous",
+            "Is washing {PRONOUN/m_c/poss} maw after eating a snack whilst hunting",
+            "Eats a strong smelling herb to hide the prey scent on {PRONOUN/m_c/poss} breath after hunting",
+            "Secretly helps an injured rogue off the territory",
+            "Secretly steals some food from a Twoleg",
+            "Complains about the border rules to a o_c_n warrior at a gathering",
+            "Wishes talking to other clans wasn't so taboo"
+        ],
+        "main_trait_constraint": [
+            "rebellious"
+        ]
+    },
+    {
         "id": "responsible_warrior",
         "thoughts": [
             "Is making sure {PRONOUN/m_c/subject}{VERB/m_c/'ve/'s} done all of {PRONOUN/m_c/poss} daily duties",
             "Is offering to lead the next patrol out",
             "Volunteers to lead a patrol",
             "Wakes up early for dawn patrol",
-            "Is always on time to patrol"
+            "Is always on time to patrol",
+            "Makes sure to catch enough prey every time",
+            "Respectfully greets a o_c_n patrol on the border",
+            "Makes sure to precisely mark the border"
         ],
         "main_trait_constraint": [
             "responsible"
@@ -786,7 +993,23 @@
     {
         "id": "righteous_warrior",
         "thoughts": [
-            "Is refusing to follow the deputy's recent orders due to {PRONOUN/m_c/poss} own morals"
+            "Is horrified at discovering {PRONOUN/m_c/subject} broke a rule by accident",
+            "Lectures a o_c_n apprentice about respecting the borders",
+            "Refuses to break {PRONOUN/m_c/poss} own morals when forced to chase away an outsider",
+            "Hesitates when a situation becomes morally grey during patrol",
+            "Hisses at a o_c_n warrior at suggesting {PRONOUN/m_c/subject} {VERB/m_c/go/goes} against {PRONOUN/m_c/poss} morals",
+            "Finds {PRONOUN/m_c/self} questioning the clan's values during a tense patrol",
+            "Struggles to see the morallity of a skrimish during patrol"
+        ],
+        "main_trait_constraint": [
+            "righteous"
+        ]
+    },
+    {
+        "id": "righteous_warrior_to_deputy",
+        "thoughts": [
+            "Is refusing to follow the deputy's recent orders due to {PRONOUN/m_c/poss} own morals",
+            "Questions the deputy's orders when {PRONOUN/m_c/poss} own morals are challenged"
         ],
         "main_trait_constraint": [
             "righteous"
@@ -799,15 +1022,111 @@
         ]
     },
     {
+        "id": "shameless_warrior",
+        "thoughts": [
+            "Refuses to apologize after eating a small piece of prey whilst hunting",
+            "Asks a very personal question to a o_c_n warrior during patrol",
+            "Overshares about a recent skrimish at the gathering",
+            "Sleeps through dawn patrol without a care in the world",
+            "Rolls {PRONOUN/m_c/poss} eyes after being told off by a o_c_n warrior for slightly crossing the border",
+            "Yawns right in the face of the o_c_n deputy sharing mind numming news",
+            "Lazes about during a training session when tired",
+            "Loudly complains about missing a catch",
+            "Bluntly tells a rogue to leave",
+            "Bluntly tells a loner to leave",
+            "Bluntly tells a kittypet to leave"
+        ],
+        "main_trait_constraint": [
+            "shameless"
+        ]
+    },
+    {
+        "id": "sincere_warrior",
+        "thoughts": [
+            "Admits to a o_c_n patrol about accidentally crossing the border",
+            "Hesitates to tell off a o_c_n apprentice after they cross the border"
+        ],
+        "main_trait_constraint": [
+            "sincere"
+        ]
+    },
+    {
+        "id": "sneaky_warrior",
+        "thoughts": [
+            "Ambushes a rogue",
+            "Ambushes a loner",
+            "Ambushes a kittypet",
+            "Goes off to patrol alone",
+            "Sneaks off to go on a night patrol",
+            "Overhears a conversation between two o_c_n cats at the border",
+            "Lies about eating a catch whilst hunting",
+            "Thinks that borders often are a suggestion",
+            "Lies about crossing the o_c_n border",
+            "Sneaks away from the gathering",
+            "Sneaks out of camp to go hunting at night",
+            "Tenses when a o_c_n patrol starts questioning {PRONOUN/m_c/object}",
+            "Learns one of o_c_n's strategies from watching them fight a fox",
+            "Is able to scam a rogue out of some knowledge"
+        ],
+        "main_trait_constraint": [
+            "sneaky"
+        ]
+    },
+    {
+        "id": "strange_warrior",
+        "thoughts": [
+            "Comes up with an odd but effective hunting strategy",
+            "Lets the prey walk into {PRONOUN/m_c/poss} claws",
+            "Mimicks a bird's call to lure them over",
+            "Eats some grass as a good luck ritual before hunting",
+            "Weirds out a o_c_n patrol",
+            "Marks the border in an inconvenient spot",
+            "Takes a strange route on patrol",
+            "Hunts in an untouched part of the territory",
+            "Stumbles over {PRONOUN/m_c/poss} words infront of the o_c_n deputy",
+            "Makes an odd remark at the gathering",
+            "Makes an equally strange friend at the gathering",
+            "Uses a trap to scare off a rogue",
+            "Uses a trap to scare off a loner",
+            "Uses a trap to scare off a kittypet",
+            "Brings back a pretty rock from patrol",
+            "Brings back a unique stick from patrol"
+        ],
+        "main_trait_constraint": [
+            "strange"
+        ]
+    },
+    {
         "id": "strict_warrior",
         "thoughts": [
             "Is conducting a rather rigorous training session for the younger warriors",
             "Takes pride in how well-run {PRONOUN/m_c/poss} patrols always are",
             "Is making sure that everycat is staying on task",
-            "Is making sure everycat gets in at least one training session a moon"
+            "Is making sure everycat gets in at least one training session a moon",
+            "Lectures a o_c_n warrior about the borders",
+            "Stubbornly sticks to one hunting method",
+            "Refuses to hunt in a different part of the territory",
+            "Takes {PRONOUN/m_c/poss} patrols very seriously"
         ],
         "main_trait_constraint": [
             "strict"
+        ]
+    },
+    {
+        "id": "thoughtful_warrior",
+        "thoughts": [
+            "Catches some extra prey",
+            "Makes sure to clearly mark the border",
+            "Offers a hunting suggestion to a o_c_n warrior",
+            "Helps a o_c_n warrior work out a problem during the gathering",
+            "Respectfully acknowledges a o_c_n patrol",
+            "Takes the time to thank Starclan after every catch",
+            "Almost got injured helping a loner",
+            "Almost got injured helping a kittypet",
+            "Almost got injured helping a o_c_n cat"
+        ],
+        "main_trait_constraint": [
+            "thoughful"
         ]
     },
     {
@@ -857,6 +1176,40 @@
         ],
         "random_living_status": [
             "living"
+        ]
+    },
+    {
+        "id": "vengeful_warrior",
+        "thoughts": [
+            "Swears revenge on a o_c_n patrol that insults c_n",
+            "Refuses to let go of something a o_c_n cat did as an apprentice",
+            "Crosses the o_c_n border after smelling their scent in the territory",
+            "Tracks down a mouse that escaped {PRONOUN/m_c/object} earlier",
+            "Hunts down a fox that got away from another patrol",
+            "Believes that cats who dont respect the borders shouldnt be respected in turn",
+            "Glares at a bird that flies away from {PRONOUN/m_c/object}",
+            "Fiercely attacks a rogue that has been causing problems for c_n",
+            "Fiercely attacks a loner that has been causing problems for c_n",
+            "Fiercely attacks a kittypet that has been causing problems for c_n"
+        ],
+        "main_trait_constraint": [
+            "vengeful"
+        ]
+    },
+    {
+        "id": "wise_warrior",
+        "thoughts": [
+            "Avoids making the same mistake twice when training",
+            "Offers advice to a o_c_n apprentice",
+            "Offers adivce to a o_c_n warrior",
+            "Carefully considers if a skrimish is worth it",
+            "Stalks extra quietly after missing a catch",
+            "Defuses a skrimish before it can start",
+            "Avoids a dangerous fight",
+            "Avoids an area of the territory frequented by Twolegs"
+        ],
+        "main_trait_constraint": [
+            "wise"
         ]
     },
     {
@@ -923,6 +1276,103 @@
         ],
         "random_living_status": [
             "living"
+        ]
+    },
+    {
+        "id": "teacher1_warrior",
+        "thoughts": [
+            "Wonders what the best way to train is",
+            "Thinks on how to remember moves more effectively",
+            "Tries out different hunting techniques to find the best one",
+            "Quizes {PRONOUN/m_c/self} on all the battle moves"
+        ],
+        "main_skill_constraint": [
+            "TEACHER,1"
+        ]
+    },
+    {
+        "id": "teacher2_warrior",
+        "thoughts": [
+            "Discovers an effective training structure",
+            "Finds a way to effectively remember moves",
+            "Feels confident in being able to teach hunting techniques",
+            "Comes up with a concise test to remember all the battle moves"
+        ],
+        "main_skill_constraint": [
+            "TEACHER,2"
+        ]
+    },
+    {
+        "id": "teacher3_warrior",
+        "thoughts": [
+            "Follows a quick and effective training routine",
+            "Creates a game to remember moves",
+            "Practices all the hunting techniques to perfection",
+            "Consistantly tests {PRONOUN/m_c/self} on all the battle moves"
+        ],
+        "main_skill_constraint": [
+            "TEACHER,3"
+        ]
+    },
+    {
+        "id": "teacher4_warrior",
+        "thoughts": [
+            "Has created the best training routine",
+            "Creates a fun and engaging game to remember moves",
+            "Can recall and preform all the hunting techniques taught by c_n",
+            "Knows all of the battle moves by heart"
+        ],
+        "main_skill_constraint": [
+            "TEACHER,4"
+        ]
+    },
+    {
+        "id": "hunter1_warrior",
+        "thoughts": [
+            "Is keen on learning all the ways to hunt",
+            "Consistantly brings back a little more prey than {PRONOUN/m_c/poss} peers",
+            "Is beginning to be able to identify different birds",
+            "Takes some extra time to practice hunting"
+        ],
+        "main_skill_constraint": [
+            "HUNTER,1"
+        ]
+    },
+    {
+        "id": "hunter2_warrior",
+        "thoughts": [
+            "Is practicing all the ways to hunt",
+            "Brings back a rather large rabbit",
+            "Knows a pawful of different prey species",
+            "Is often spending sundown training hunting"
+        ],
+        "main_skill_constraint": [
+            "HUNTER,2"
+        ]
+    },
+    {
+        "id": "hunter3_warrior",
+        "thoughts": [
+            "Is coming up with a new way to hunt",
+            "Brings back a snake",
+            "Knows a lot of different prey species",
+            "Knows the best times to hunt",
+            "Is able to catch a bird out of the sky"
+        ],
+        "main_skill_constraint": [
+            "HUNTER,3"
+        ]
+    },
+    {
+        "id": "hunter4_warrior",
+        "thoughts": [
+            "Invents a new hunting technique",
+            "Brings back a falcon",
+            "Purrs after pulling off an impossible catch",
+            "Expertly swats a bug out of the air"
+        ],
+        "main_skill_constraint": [
+            "HUNTER,4"
         ]
     }
 ]
