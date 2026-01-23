@@ -16,7 +16,7 @@ import ujson  # type: ignore
 
 import scripts.game_structure.localization as pronouns
 from scripts.cat import save_load
-from scripts.cat.enums import CatAge, CatRank, CatSocial, CatGroup
+from scripts.cat.enums import CatAge, CatRank, CatSocial, CatGroup, CatCompatibility
 from scripts.cat.history import History
 from scripts.cat.names import Name
 from scripts.cat.pelts import Pelt
@@ -499,14 +499,20 @@ class Cat:
                 )
                 return
 
+            game.updated_afterlife_cats.add(self)
+
+            cat_default_afterlife_id = self.status.get_default_afterlife_id()
+            if cat_default_afterlife_id == CatGroup.UNKNOWN_RESIDENCE_ID:
+                pass
+
             # kits are auto-accepted
-            if self.age in (CatAge.KITTEN, CatAge.NEWBORN):
+            elif self.age in (CatAge.KITTEN, CatAge.NEWBORN):
                 self.history.add_afterlife_acceptance(
                     game.clan.instructor.status.group,
                     is_kit=True,
                 )
             else:
-                if game.clan.instructor.status.group == CatGroup.STARCLAN:
+                if cat_default_afterlife_id == CatGroup.STARCLAN_ID:
                     affinity = self.starclan_affinity
                     afterlife_group = CatGroup.STARCLAN
                     rejected_ID = CatGroup.DARK_FOREST_ID
@@ -750,7 +756,9 @@ class Cat:
                         high_types.extend(rel_type)
                 elif tier.is_low_pos:
                     high_types.extend(rel_type)
-                elif tier.is_extreme_neg or tier.is_mid_neg:
+                elif tier.is_extreme_neg:
+                    very_low_types.extend(rel_type)
+                elif tier.is_mid_neg and randint(1, 4) == 1:
                     very_low_types.extend(rel_type)
                 continue
 
@@ -766,7 +774,7 @@ class Cat:
                 if (
                     body
                     and not body_treated
-                    and "rosemary" in game.clan.herb_supply.entire_supply
+                    and game.clan.herb_supply.entire_supply["rosemary"]
                 ):
                     body_treated = True
                     game.clan.herb_supply.remove_herb("rosemary", -1)
@@ -2028,7 +2036,11 @@ class Cat:
                 )
                 != 0
             ):
-                clan_herbs = set(game.clan.herb_supply.entire_supply.keys())
+                clan_herbs = {
+                    herb
+                    for herb, clan_has_herb in game.clan.herb_supply.entire_supply.items()
+                    if clan_has_herb
+                }
                 needed_herbs = {"horsetail", "raspberry", "marigold", "cobwebs"}
                 usable_herbs = list(needed_herbs.intersection(clan_herbs))
 
@@ -2864,16 +2876,22 @@ class Cat:
             chance = 40
 
         compat = get_personality_compatibility(cat1, cat2)
-        if compat is True:
+        if compat == CatCompatibility.POSITIVE:
             chance += 10
-        elif compat is False:
+        elif compat == CatCompatibility.NEGATIVE:
             chance -= 5
 
         # Cat's compatibility with mediator also has an effect on success chance.
         for cat in (cat1, cat2):
-            if get_personality_compatibility(cat, mediator) is True:
+            if (
+                get_personality_compatibility(cat, mediator)
+                == CatCompatibility.POSITIVE
+            ):
                 chance += 5
-            elif get_personality_compatibility(cat, mediator) is False:
+            elif (
+                get_personality_compatibility(cat, mediator)
+                == CatCompatibility.NEGATIVE
+            ):
                 chance -= 5
 
         # Determine chance to fail, turning sabotage into mediate and mediate into sabotage
@@ -3356,6 +3374,7 @@ class Cat:
                 "pelt_name": self.pelt.name,
                 "pelt_color": self.pelt.colour,
                 "pelt_length": self.pelt.length,
+                "sprite_newborn": self.pelt.cat_sprites["newborn"],
                 "sprite_kitten": self.pelt.cat_sprites["kitten"],
                 "sprite_adolescent": self.pelt.cat_sprites["adolescent"],
                 "sprite_adult": self.pelt.cat_sprites["adult"],
