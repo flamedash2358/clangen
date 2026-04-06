@@ -127,5 +127,263 @@
                 "frequency": 4
             }
         ]
+    },
+    {
+        "patrol_id": "fst_train_greenleafwaspnest_app",
+        "biome": [
+            "forest"
+        ],
+        "season": [
+            "greenleaf"
+        ],
+        "types": [
+            "training"
+        ],
+        "tags": [],
+        "patrol_art": null,
+        "patrol_art_clean": null,
+        "min_cats": 1,
+        "max_cats": 6,
+        "min_max_status": {
+            "normal adult": [-1, -1]
+        },
+        "frequency": 3,
+        "chance_of_success": 70,
+        "intro_text": "p_l stumbles into quite the strange sight, a striped grey ball hanging from a treebranch. Upon a closer look, wasps are flying in and out of a hole in the structure, this must be a wasp nest! However its unnervingly close to where p_l is meant to be battle training.",
+        "decline_text": "p_l shakes {PRONOUN/p_l/poss} head, this is a warrior's problem, not {PRONOUN/p_l/object}.",
+        "success_outcomes": [
+            {
+                "min_max_status": {
+                    "apprentice": [1, 1]
+                },
+                "text": "When a wasp buzzes around s_c, {PRONOUN/s_c/subject} {VERB/s_c/decide/decides} to move and train elsewhere. Its a pleasant battle training session in the greenleaf heat, especially without the risk of getting stung!",
+                "exp": 15,
+                "frequency": 4,
+                "stat_trait": [
+                    "careful",
+                    "compassionate",
+                    "loving",
+                    "nervous",
+                    "responsible",
+                    "thoughtful",
+                    "wise"
+                ],
+                "can_have_stat": [
+                    "p_l"
+                ],
+                "art": "patrol_outcome_art"
+            },
+            {
+                "min_max_status": {
+                    "apprentice": [2, 6]
+                },
+                "text": "When a wasp buzzes around s_c, {PRONOUN/s_c/subject} {VERB/s_c/decide/decides} to get the group to move and train elsewhere. Its a pleasant battle training session in the greenleaf heat, especially without the risk of getting stung!",
+                "exp": 15,
+                "frequency": 4,
+                "stat_trait": [
+                    "careful",
+                    "compassionate",
+                    "fierce",
+                    "loving",
+                    "nervous",
+                    "responsible",
+                    "thoughtful",
+                    "wise"
+                ],
+                "can_have_stat": [
+                    "p_l"
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["patrol"],
+                        "mutual": true,
+                        "values": [
+                            "like",
+                            "trust"
+                        ],
+                        "amount": 5,
+                        "log": {
+                            "cats_from": "cat_from had a pleasant battle training session with to_cat!"
+                        }
+                    }
+                ],
+                "art": "patrol_outcome_art"
+            },
+            {
+                "min_max_status": {
+                    "apprentice": [1, 1]
+                },
+                "text": "As long as s_c doesn't go near it, it'll be fine. After a successful battle training session, {PRONOUN/s_c/subject} {VERB/s_c/return/returns} home, happy to not have been bothered by the nest.",
+                "exp": 15,
+                "frequency": 4,
+                "stat_trait": [
+                    "calm",
+                    "cold",
+                    "confident",
+                    "cunning",
+                    "faithful",
+                    "gloomy",
+                    "grumpy",
+                    "lonesome",
+                    "loyal",
+                    "righteous",
+                    "sincere",
+                    "strict"
+                ],
+                "can_have_stat": [
+                    "p_l"
+                ],
+                "art": "patrol_outcome_art"
+            },
+            {
+                "min_max_status": {
+                    "apprentice": [2, 6]
+                },
+                "text": "s_c points the nest out to the rest of the group, as long as they don't get near it they'll be fine. After a successful battle training session, the group of apprentices return home, happy to not have been bothered by the nest.",
+                "exp": 15,
+                "frequency": 4,
+                "stat_trait": [
+                    "calm",
+                    "cold",
+                    "confident",
+                    "cunning",
+                    "faithful",
+                    "gloomy",
+                    "grumpy",
+                    "lonesome",
+                    "loyal",
+                    "righteous",
+                    "sincere",
+                    "strict"
+                ],
+                "can_have_stat": [
+                    "p_l"
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["patrol"],
+                        "mutual": true,
+                        "values": [
+                            "like",
+                            "trust"
+                        ],
+                        "amount": 5,
+                        "log": {
+                            "cats_from": "cat_from had a pleasant battle training session with to_cat!"
+                        }
+                    }
+                ],
+                "art": "patrol_outcome_art"
+            },
+            {
+                "min_max_status": {
+                    "apprentice": [2, 6]
+                },
+                "text": "The group of apprentices notice the nest after s_c points it out, and dares them to play a game to see who dares to get the closest. The winner gets the juiciest piece of prey once they get back. Its an intense game as they all take turns running towards the bottom of the nest before darting back, and r_c ends up winning! Maybe they don't end up getting much done, but it was fun nonetheless!",
+                "exp": 7,
+                "frequency": 3,
+                "stat_trait": [
+                    "adventerous",
+                    "arrogant",
+                    "bloodthirsty",
+                    "bold",
+                    "charismatic",
+                    "childish",
+                    "competitive",
+                    "confident",
+                    "cunning",
+                    "daring",
+                    "flamboyant",
+                    "oblivious",
+                    "playful",
+                    "troublesome"
+                ],
+                "can_have_stat": [
+                    "p_l"
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["patrol"],
+                        "mutual": true,
+                        "values": [
+                            "like",
+                            "comfort"
+                        ],
+                        "amount": 10,
+                        "log": {
+                            "cats_from": "cat_from played a risky, but fun game involving a wasp nest with to_cat!"
+                        }
+                    }
+                ],
+                "art": "patrol_outcome_art"
+            },
+            {
+                "min_max_status": {
+                    "apprentice": [2, 6]
+                },
+                "text": "s_c points out the nest to the patrol, instead of backing off though {PRONOUN/s_c/subject} approaches it. The group of apprentices growing uneasy as a swath of the insects crawl out of the hive, wings buzzing in a threatening display. Before s_c can get any closer, r_c grabs {PRONOUN/s_c/object} by the tail. Maybe they shouldnt get any closer, infact maybe they should train over <i>there<i/> instead! Despite the near bad outcome, the group is able to achieve some battle training thanks to r_c.",
+                "exp": 7,
+                "frequency": 3,
+                "stat_trait": [
+                    "adventerous",
+                    "ambitious",
+                    "arrogant",
+                    "bloodthirsty",
+                    "bold",
+                    "childish",
+                    "confident",
+                    "daring",
+                    "oblivious",
+                    "strange",
+                    "troublesome"
+                ],
+                "can_have_stat": [
+                    "p_l"
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["s_c"],
+                        "cats_from": ["patrol"],
+                        "mutual": false,
+                        "values": [
+                            "like",
+                            "trust"
+                        ],
+                        "amount": -10,
+                        "log": {
+                            "cats_from": "cat_from feels unsettled by to_cat approaching a wasp nest that was ready to swarm any minute."
+                        }
+                    }
+                ],
+                "art": "patrol_outcome_art"
+            },
+        ],
+        "fail_outcomes": [
+            {
+                SEE OUTCOME BLOCK TEMPLATE
+            },
+            {
+                SEE OUTCOME BLOCK TEMPLATE
+            }
+        ],
+        "antag_success_outcomes": [
+            {
+                SEE OUTCOME BLOCK TEMPLATE
+            },
+            {
+                SEE OUTCOME BLOCK TEMPLATE
+            }
+        ],
+        "antag_fail_outcomes": [
+            {
+                SEE OUTCOME BLOCK TEMPLATE
+            },
+            {
+                SEE OUTCOME BLOCK TEMPLATE
+            }
+        ]
     }
 ]
