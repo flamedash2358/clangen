@@ -175,7 +175,43 @@
             },
             {
                 "min_max_status": {
-                    "apprentice": [2, 6]
+                    "apprentice": [2, 2]
+                },
+                "text": "When a wasp buzzes around s_c, {PRONOUN/s_c/subject} {VERB/s_c/decide/decides} to get r_c to move and train elsewhere. Its a pleasant battle training session in the greenleaf heat, especially without the risk of getting stung!",
+                "exp": 6,
+                "frequency": 4,
+                "stat_trait": [
+                    "careful",
+                    "compassionate",
+                    "loving",
+                    "nervous",
+                    "responsible",
+                    "thoughtful",
+                    "wise"
+                ],
+                "can_have_stat": [
+                    "p_l"
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["patrol"],
+                        "mutual": true,
+                        "values": [
+                            "like",
+                            "trust"
+                        ],
+                        "amount": 5,
+                        "log": {
+                            "cats_from": "cat_from had a pleasant battle training session with to_cat!"
+                        }
+                    }
+                ],
+                "art": "patrol_outcome_art"
+            },
+            {
+                "min_max_status": {
+                    "apprentice": [3, 6]
                 },
                 "text": "When a wasp buzzes around s_c, {PRONOUN/s_c/subject} {VERB/s_c/decide/decides} to get the group to move and train elsewhere. Its a pleasant battle training session in the greenleaf heat, especially without the risk of getting stung!",
                 "exp": 12,
@@ -281,7 +317,7 @@
                 "min_max_status": {
                     "apprentice": [3, 6]
                 },
-                "text": "The group of apprentices notice the nest after s_c points it out, and dares them to play a game to see who dares to get the closest. The winner gets the juiciest piece of prey once they get back. Its an intense game as they all take turns running towards the bottom of the nest before darting back, and r_c ends up winning! Maybe they don't end up getting much done, but it was fun nonetheless!",
+                "text": "The group of apprentices notice the nest after s_c points it out, and dares them to play a game to see who can get the closest. The winner gets the juiciest piece of prey once they get back. Its an intense game as they all take turns running towards the bottom of the nest before darting back, and r_c ends up winning! Maybe they don't end up getting much done, but it was fun nonetheless!",
                 "exp": 7,
                 "frequency": 3,
                 "stat_trait": [
@@ -322,7 +358,47 @@
             },
             {
                 "min_max_status": {
-                    "apprentice": [2, 6]
+                    "apprentice": [2, 2]
+                },
+                "text": "s_c points out the nest to r_c, instead of backing off though {PRONOUN/s_c/subject} approaches it. r_c growing uneasy as a swath of the insects crawl out of the hive, wings buzzing in a threatening display. Before s_c can get any closer, r_c grabs {PRONOUN/s_c/object} by the tail. Maybe they shouldnt get any closer, infact maybe they should train over <i>there<i/> instead! Despite the near bad outcome, the duo is able to do some battle training.",
+                "exp": 12,
+                "frequency": 3,
+                "stat_trait": [
+                    "adventerous",
+                    "ambitious",
+                    "arrogant",
+                    "bloodthirsty",
+                    "bold",
+                    "childish",
+                    "confident",
+                    "daring",
+                    "oblivious",
+                    "strange",
+                    "troublesome"
+                ],
+                "can_have_stat": [
+                    "p_l"
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["s_c"],
+                        "cats_from": ["patrol"],
+                        "mutual": false,
+                        "values": [
+                            "like",
+                            "trust"
+                        ],
+                        "amount": -10,
+                        "log": {
+                            "cats_from": "cat_from feels unsettled by to_cat approaching a wasp nest that was ready to swarm any minute."
+                        }
+                    }
+                ],
+                "art": "patrol_outcome_art"
+            },
+            {
+                "min_max_status": {
+                    "apprentice": [3, 6]
                 },
                 "text": "s_c points out the nest to the patrol, instead of backing off though {PRONOUN/s_c/subject} approaches it. The group of apprentices growing uneasy as a swath of the insects crawl out of the hive, wings buzzing in a threatening display. Before s_c can get any closer, r_c grabs {PRONOUN/s_c/object} by the tail. Maybe they shouldnt get any closer, infact maybe they should train over <i>there<i/> instead! Despite the near bad outcome, the group is able to achieve some battle training thanks to r_c.",
                 "exp": 12,
@@ -359,12 +435,12 @@
                     }
                 ],
                 "art": "patrol_outcome_art"
-            },
+            }
         ],
         "fail_outcomes": [
             {
                 "min_max_status": {
-                    "apprentice": [2, 6]
+                    "apprentice": [3, 6]
                 },
                 "text": "s_c points out the nest to the patrol, instead of backing off though {PRONOUN/s_c/subject} approaches it. The group of apprentices growing uneasy as a swath of the insects crawl out of the hive, wings buzzing in a threatening display. Eventually s_c crosses their border and the swarm strikes, attacking everyone mercilessly as they hightail it home.",
                 "exp": 0,
@@ -499,7 +575,7 @@
             },
             {
                 "min_max_status": {
-                    "apprentice": [3, 6]
+                    "apprentice": [4, 6]
                 },
                 "text": "s_c points the nest out to the rest of the group, as long as they don't get near it they'll be fine. Whilst they're training though, r_c is accidentally kicked into the tree with the nest. To the patrol's horror the nest shakes, then falls to the ground as a massive swarm emerges from it. The patrol runs for their lives until they make it home safe, but not without quite a few stings.",
                 "exp": 12,
@@ -535,21 +611,18 @@
                     {
                         "cats_to": ["patrol"],
                         "cats_from": ["patrol"],
-                        "mutual": true,
+                        "mutual": false,
                         "values": [
                             "like",
                             "trust"
                         ],
                         "amount": 5,
                         "log": {
-                            "cats_from": "cat_from had a frantic wasp related bonding experience with to_cat!"
+                            "cats_from": "cat_from had a frantic wasp escape with to_cat!"
                         }
                     }
                 ],
                 "art": "patrol_outcome_art"
-            },
-            {
-                SEE OUTCOME BLOCK TEMPLATE
             }
         ],
         "antag_success_outcomes": [
