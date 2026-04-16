@@ -541,29 +541,129 @@
         ]
     },
     {
-    "event_id": "fst_injury_fireflies",
-    "location": [
-        "forest:camp1"
-    ],
-    "season": [
-        "-leaf-bare"
-    ],
-    "sub_type": [],
-    "tags": [],
-    "frequency": 2,
-    "event_text": "m_c got hurt while chasing fireflies through camp.",
-    "new_accessory": [],
-    "m_c": {
-        "age": [
-            "kitten",
-            "adolescent"
+        "event_id": "fst_injury_fireflies",
+        "location": [
+            "forest:camp1"
+        ],
+        "season": [
+            "-leaf-bare"
+        ],
+        "sub_type": [],
+        "tags": [],
+        "frequency": 2,
+        "event_text": "m_c got hurt while chasing fireflies through camp.",
+        "new_accessory": [],
+        "m_c": {
+            "age": [
+                "kitten",
+                "adolescent"
+            ]
+        },
+        "injury": [
+            {
+                "cats": ["m_c"],
+                "injuries": ["minor_injury"]
+            }
         ]
     },
-    "injury": [
-        {
-            "cats": ["m_c"],
-            "injuries": ["minor_injury"]
-        }
-    ]
-}
+    {
+        "event_id": "fst_injury_coldshock_drown_app",
+        "location": ["forest:camp4"],
+        "season": [
+            "leaf-bare"
+        ],
+        "frequency": 4,
+        "event_text": "m_c was dared by r_c to jump into the freezing lake off of the leader's tree, afterwards r_c is seen dragging {PRONOUN/m_c/object} to the medicine den, m_c having nearly drowned from cold shock.",
+        "m_c": {
+            "age": [
+                "adolescent"
+            ],
+            "trait": [
+                "-wise",
+                "-responsible",
+                "-calm",
+                "-thoughtful"
+            ]
+        },
+        "r_c": {
+            "age": [
+                "adolescent"
+            ],
+            "trait": [
+                "-wise",
+                "-responsible",
+                "-calm",
+                "-thoughtful",
+                "-loving"
+            ]
+        },
+        "injury": [
+            {
+                "cats": [
+                    "m_c"
+                ],
+                "injuries": [
+                    "shock",
+                    "water in lungs"
+                ]
+            }
+        ],
+        "history:": [
+            {
+                "cats": ["m_c"],
+                "death": "m_c died after complications from nearly drowning due to a dare."
+            }
+        ]
+    },
+    {
+        "event_id": "fst_injury_branchslip",
+        "location": ["forest:camp4"],
+        "season": [
+            "any"
+        ],
+        "frequency": 2,
+        "event_text": "m_c slipped from the upper branches of {PRONOUN/m_c/poss} den, landing awkwardly on {PRONOUN/m_c/poss} paw.",
+        "m_c": {
+            "age": [
+                "any"
+            ]
+        },
+        "injury": [
+            {
+                "cats": [
+                    "m_c"
+                ],
+                "injuries": [
+                    "sprain",
+                    "scrapes"
+                ]
+            }
+        ]
+    },
+    {
+        "event_id": "fst_injury_treeslip_highrank",
+        "location": ["forest:camp4"],
+        "season": [
+            "any"
+        ],
+        "frequency": 1,
+        "event_text": "Whilst m_c was giving an announcement to the clan, {PRONOUN/m_c/subject} slipped from the leader's tree, landing badly on {PRONOUN/m_c/poss} paw.",
+        "m_c": {
+            "status": [
+                "leader",
+                "deputy"
+            ]
+        },
+        "injury": [
+            {
+                "cats": [
+                    "m_c"
+                ],
+                "injuries": [
+                    "sprain",
+                    "scrapes"
+                ]
+            }
+        ]
+    }
 ]
