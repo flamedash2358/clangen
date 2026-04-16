@@ -572,7 +572,7 @@
         "season": [
             "leaf-bare"
         ],
-        "frequency": 4,
+        "frequency": 1,
         "event_text": "m_c was dared by r_c to jump into the freezing lake off of the leader's tree, afterwards r_c is seen dragging {PRONOUN/m_c/object} to the medicine den, m_c having nearly drowned from cold shock.",
         "m_c": {
             "age": [
