@@ -572,7 +572,7 @@
         "season": [
             "leaf-bare"
         ],
-        "frequency": 1,
+        "frequency": 2,
         "event_text": "m_c was dared by r_c to jump into the freezing lake off of the leader's tree, afterwards r_c is seen dragging {PRONOUN/m_c/object} to the medicine den, m_c having nearly drowned from cold shock.",
         "m_c": {
             "age": [
@@ -621,7 +621,7 @@
         "season": [
             "any"
         ],
-        "frequency": 2,
+        "frequency": 3,
         "event_text": "m_c slipped from the upper branches of {PRONOUN/m_c/poss} den, landing awkwardly on {PRONOUN/m_c/poss} paw.",
         "m_c": {
             "age": [
@@ -646,7 +646,7 @@
         "season": [
             "any"
         ],
-        "frequency": 1,
+        "frequency": 3,
         "event_text": "Whilst m_c was giving an announcement to the clan, {PRONOUN/m_c/subject} slipped from the leader's tree, landing badly on {PRONOUN/m_c/poss} paw.",
         "m_c": {
             "status": [
