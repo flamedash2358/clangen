@@ -113,8 +113,8 @@
             "Is a bit cross with r_c",
             "Is growing fond of r_c",
             "Is worried about r_c",
-            "Is proud of r_c's growth",
-        ] ,
+            "Is proud of r_c's growth"
+        ],
         "main_age_constraint": [
             "-kitten"
         ],
@@ -1281,7 +1281,7 @@
         "thoughts":[
             "Won't stop pulling pranks",
             "Taunted a dog stuck behind a Twoleg fence",
-            "Climbed up a tree and nearly fell out",
+            "Climbed up a tree and nearly fell out"
         ],
 		"has_injuries": {
 	        "m_c": ["-any"]
