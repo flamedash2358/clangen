@@ -85,13 +85,24 @@
         "id": "gen_not_kit",
         "thoughts": [
             "Is thinking about {PRONOUN/m_c/poss} life choices",
-            "Can't wait to take a nap later",
+            "Can't wait to take a nap later"
+        ],
+        "main_age_constraint": [
+            "-kitten"
+        ]
+    },
+	{
+        "id": "gen_not_kit_uninjured",
+        "thoughts": [
             "Saw a yappy little dog today",
             "Got startled by a squirrel",
             "Saw a big scary dog today",
             "Is drinking water from a nearby stream",
             "Spends time watching fish in the nearby river"
         ],
+		"has_injuries": {
+	        "m_c": ["-any"]
+	    },
         "main_age_constraint": [
             "-kitten"
         ]
@@ -101,12 +112,29 @@
         "thoughts": [
             "Is a bit cross with r_c",
             "Is growing fond of r_c",
-            "Is wishing r_c would play more quietly",
             "Is worried about r_c",
             "Is proud of r_c's growth",
-            "Watches r_c pretend to hunt a mouse",
-            "Catches r_c climb a bit too high"
         ] ,
+        "main_age_constraint": [
+            "-kitten"
+        ],
+        "random_age_constraint": [
+            "kitten"
+        ],
+        "random_living_status": [
+            "living"
+        ]
+    },
+	{
+        "id": "gen_to_kit_uninjured",
+        "thoughts": [
+            "Is wishing r_c would play more quietly",
+            "Watches r_c pretend to hunt a mouse",
+            "Catches r_c climbing a bit too high"
+        ],
+		"has_injuries": {
+	        "r_c": ["-any"]
+	    },
         "main_age_constraint": [
             "-kitten"
         ],
@@ -150,37 +178,70 @@
         "thoughts": [
             "Is finding the buzzing of the cicadas annoying",
             "Can't sleep because of the bugs and the heat",
-            "Can't get anything done with this heat",
-            "Is sitting in the shade trying to hide from the heat",
-            "Is debating swimming to cool down"
+            "Is sitting in the shade trying to hide from the heat"
         ],
         "season": [
             "Greenleaf"
         ]
     },
+	{
+        "id": "gen_greenleaf_uninjured",
+        "thoughts": [
+            "Can't get anything done with this heat",
+            "Is debating swimming to cool down"
+        ],
+        "season": [
+            "Greenleaf"
+        ],
+		"has_injuries": {
+	        "m_c": ["-any"]
+	    }
+    },
     {
         "id": "gen_leaffall",
         "thoughts": [
-            "Leaps into a pile of fallen leaves",
-            "Is crushing leaves under {PRONOUN/m_c/poss} paws",
             "Is glad it's not so hot out anymore"
         ],
         "season": [
             "Leaf-fall"
         ]
     },
+	{
+        "id": "gen_leaffall_uninjured",
+        "thoughts": [
+			"Is crushing leaves under {PRONOUN/m_c/poss} paws",
+            "Leaps into a pile of fallen leaves"
+        ],
+        "season": [
+            "Leaf-fall"
+        ],
+		"has_injuries": {
+	        "m_c": ["-any"]
+	    }
+    },
     {
         "id": "gen_leafbare",
         "thoughts": [
             "Sneezes when a snowflake landed on {PRONOUN/m_c/poss} nose",
-            "Can't stand this cold",
+            "Can't stand this cold"
+        ],
+        "season": [
+            "Leaf-bare"
+        ]
+    },
+	{
+        "id": "gen_leafbare_uninjured",
+        "thoughts": [
             "Pounced on some movement under the snow like a fox",
             "Slipped on some ice hidden under the snow",
             "Is careful not to stand under branches with snow on them"
         ],
         "season": [
             "Leaf-bare"
-        ]
+        ],
+		"has_injuries": {
+	        "m_c": ["-any"]
+	    }
     },
     {
         "id": "adventurous_gen",
@@ -264,9 +325,6 @@
             "Growls to {PRONOUN/m_c/self}",
             "Yearns to fight",
             "Is letting a wound go untreated in hopes it gives {PRONOUN/m_c/object} a scar",
-            "Tried to fight a loner",
-            "Tried to fight a kittypet",
-            "Tried to fight a rogue",
             "Daydreams about killing a certain cat",
             "Wonders if {PRONOUN/m_c/subject} could kill a fox all by {PRONOUN/m_c/self}",
             "Daydreams about slaughtering every cat {PRONOUN/m_c/subject} {VERB/m_c/despise/despises}",
@@ -277,12 +335,37 @@
             "bloodthirsty"
         ]
     },
+	{
+        "id": "bloodthirsty_gen_uninjured",
+        "thoughts":[
+            "Tried to fight a loner",
+            "Tried to fight a kittypet",
+            "Tried to fight a rogue"
+        ],
+		"has_injuries": {
+	        "m_c": ["-any"]
+	    },
+        "main_trait_constraint": [
+            "bloodthirsty"
+        ]
+    },
     {
         "id": "bold_gen",
         "thoughts":[
-            "Prances around with {PRONOUN/m_c/poss} tail up high, ready for anything",
             "Is not afraid of anything"
         ],
+        "main_trait_constraint": [
+            "bold"
+        ]
+    },
+	{
+        "id": "bold_gen_uninjured",
+        "thoughts":[
+            "Prances around with {PRONOUN/m_c/poss} tail up high, ready for anything"
+        ],
+		"has_injuries": {
+	        "m_c": ["-any"]
+	    },
         "main_trait_constraint": [
             "bold"
         ]
@@ -307,17 +390,28 @@
         "id": "calm_gen",
         "thoughts":[
             "Is taking a moment to appreciate some peace and quiet",
-            "Is meditating upon a sun-warmed rock",
-            "Is out on a peaceful stroll",
             "Is remembering simpler days with fondness",
             "Smells sweet, like lavender",
             "Is taking {PRONOUN/m_c/poss} sweet time eating {PRONOUN/m_c/poss} meal",
             "Is purring quietly",
             "Has been reaching meditative states while sunbathing",
             "Knows everything will be okay in the end",
-            "Spends the whole morning stretching",
             "Listens to the harmony of birdsong"
         ],
+        "main_trait_constraint": [
+            "calm"
+        ]
+    },
+	{
+        "id": "calm_gen_uninjured",
+        "thoughts":[
+            "Is meditating upon a sun-warmed rock",
+            "Is out on a peaceful stroll",
+            "Spends the whole morning stretching"
+        ],
+		"has_injuries": {
+	        "m_c": ["-any"]
+	    },
         "main_trait_constraint": [
             "calm"
         ]
@@ -374,7 +468,6 @@
         "thoughts":[
             "Always manages to turn the mood into a lighter one",
             "Is laughing with friends",
-            "Plans to go on a stroll with some cat today",
             "Is swishing {PRONOUN/m_c/poss} tail back and forth in a laid back manner",
             "Is grooming {PRONOUN/m_c/poss} already silky soft coat",
             "Is purring warmly",
@@ -392,14 +485,24 @@
             "charismatic"
         ]
     },
+	{
+        "id": "charismatic_gen_uninjured",
+        "thoughts":[
+            "Plans to go on a stroll with some cat today"
+        ],
+		"has_injuries": {
+	        "m_c": ["-any"]
+	    },
+        "main_trait_constraint": [
+            "charismatic"
+        ]
+    },
     {
         "id": "childish_gen",
         "thoughts":[
             "Is playing with {PRONOUN/m_c/poss} food",
             "Is crunching leaves with {PRONOUN/m_c/poss} paws",
-            "Is distracted by a shiny Twoleg trinket {PRONOUN/m_c/subject} found",
             "Is sooooooo booooooooooooored",
-            "Is preoccupied playing an important game of hide and seek",
             "Is laughing gleefully!",
             "Gets in an argument over something utterly trivial",
             "Has felt bad all day about stepping on a bug",
@@ -410,14 +513,44 @@
             "childish"
         ]
     },
+	{
+        "id": "childish_gen_uninjured",
+        "thoughts":[
+            "Is distracted by a shiny Twoleg trinket {PRONOUN/m_c/subject} found",
+            "Is preoccupied playing an important game of hide and seek"
+        ],
+		"has_injuries": {
+	        "m_c": ["-any"]
+	    },
+        "main_trait_constraint": [
+            "childish"
+        ]
+    },
     {
         "id": "silly_to_living_kit",
         "thoughts":[
-
-            "Is pretending to not see r_c sneaking up on {PRONOUN/m_c/object}",
             "Excitedly asks r_c if {PRONOUN/r_c/subject} {VERB/r_c/know/knows} any good games",
             "Tells r_c jokes all day"
         ],
+        "random_age_constraint": [
+            "kitten"
+        ],
+        "main_trait_constraint": [
+            "childish",
+            "playful"
+        ],
+        "random_living_status": [
+            "living"
+        ]
+    },
+	{
+        "id": "silly_to_living_uninjured_kit",
+        "thoughts":[
+            "Is pretending to not see r_c sneaking up on {PRONOUN/m_c/object}"
+        ],
+		"has_injuries": {
+	        "r_c": ["-any"]
+	    },
         "random_age_constraint": [
             "kitten"
         ],
@@ -451,11 +584,22 @@
             "Is delighted by the slow passage of time",
             "Feels entirely unlike {PRONOUN/m_c/self} when {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} bothered by something small",
             "Feels {PRONOUN/m_c/poss} kindness might be taken advantage of",
-            "Is sharing tongues with friends",
             "Ponders the burdens of others",
-            "Is feeling really sad, but tries not to let it show",
+            "Is feeling really sad, but tries not to let it show"
+        ],
+        "main_trait_constraint": [
+            "compassionate"
+        ]
+    },
+	{
+        "id": "compassionate_gen_uninjured",
+        "thoughts":[
+            "Is sharing tongues with friends",
             "Helps solve a conflict by mediating both sides"
         ],
+		"has_injuries": {
+	        "m_c": ["-any"]
+	    },
         "main_trait_constraint": [
             "compassionate"
         ]
@@ -481,9 +625,20 @@
         "id": "competitive_gen",
         "thoughts":[
             "Puffs out {PRONOUN/m_c/poss} chest, feeling secure with the space {PRONOUN/m_c/subject} {VERB/m_c/take/takes} up",
-            "Is practicing doing things around camp as fast as possible, just in case",
             "Wants to wrestle just for fun"
         ],
+        "main_trait_constraint": [
+            "competitive"
+        ]
+    },
+	{
+        "id": "competitive_gen_uninjured",
+        "thoughts":[
+            "Is practicing doing things around camp as fast as possible, just in case"
+        ],
+		"has_injuries": {
+	        "m_c": ["-any"]
+	    },
         "main_trait_constraint": [
             "competitive"
         ]
@@ -493,13 +648,24 @@
         "thoughts":[
             "Is puffing {PRONOUN/m_c/poss} chest out",
             "Thinks that {PRONOUN/m_c/subject} {VERB/m_c/are/is} the funniest cat around",
-            "Is strutting around confidently",
             "Puffs out {PRONOUN/m_c/poss} chest, feeling secure with the space {PRONOUN/m_c/subject} {VERB/m_c/take/takes} up",
             "Doesn't falter when challenged on {PRONOUN/m_c/poss} abilities",
             "Is extra-sure of {PRONOUN/m_c/self} today",
             "Already has a plan in mind for today",
             "Knows {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} well-liked"
         ],
+        "main_trait_constraint": [
+            "confident"
+        ]
+    },
+	{
+        "id": "confident_gen_uninjured",
+        "thoughts":[
+            "Is strutting around confidently"
+        ],
+		"has_injuries": {
+	        "m_c": ["-any"]
+	    },
         "main_trait_constraint": [
             "confident"
         ]
@@ -519,21 +685,31 @@
     {
         "id": "daring_gen",
         "thoughts":[
-
-            "Took a nap on a high tree branch",
-            "Took a nap on the edge of a high rock",
             "Suffered a bellyache after being dared to swallow a beetle",
             "Is twitching {PRONOUN/m_c/poss} tail in excitement about something",
             "Wishes there were more opportunities to show {PRONOUN/m_c/poss} skills",
+            "Wonders what being hit by lightning would feel like",
+            "Isn't afraid of anything"
+        ],
+        "main_trait_constraint": [
+            "daring"
+        ]
+    },
+	{
+        "id": "daring_gen_uninjured",
+        "thoughts":[
+            "Took a nap on a high tree branch",
+            "Took a nap on the edge of a high rock",
             "Is leaping from boulder to boulder out in the forest",
             "Is climbing to the top of a very tall tree!",
             "Taunted a dog stuck behind a Twoleg fence",
             "Is walking along the edge of a very tall cliff",
             "Leaps from tree-branch to tree-branch, just for the adrenaline rush",
-            "Wonders what being hit by lightning would feel like",
-            "Goes out for a hunt during a thunderstorm",
-            "Isn't afraid of anything"
+            "Goes out for a hunt during a thunderstorm"
         ],
+		"has_injuries": {
+	        "m_c": ["-any"]
+	    },
         "main_trait_constraint": [
             "daring"
         ]
@@ -541,7 +717,6 @@
     {
         "id": "faithful_gen",
         "thoughts":[
-
             "Is certain of {PRONOUN/m_c/poss} purpose",
             "Doesn't question {PRONOUN/m_c/poss} own judgment",
             "Stares up at the stars wonderingly",
@@ -572,11 +747,9 @@
     {
         "id": "fierce_gen",
         "thoughts":[
-
             "Isn't scared of anything today!",
             "Can't stop flexing {PRONOUN/m_c/poss} claws",
             "Woke up with a flame in {PRONOUN/m_c/poss} belly this morning!",
-            "Taunted a dog stuck behind a Twoleg fence",
             "Is unusually tame today",
             "Is letting a wound go untreated in hopes it gives {PRONOUN/m_c/object} a scar",
             "Is looking forward to a challenge",
@@ -587,6 +760,18 @@
             "Wishes {PRONOUN/m_c/subject} had more scars",
             "Knows {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} a force to be reckoned with"
         ],
+        "main_trait_constraint": [
+            "fierce"
+        ]
+    },
+	{
+        "id": "fierce_gen_uninjured",
+        "thoughts":[
+            "Taunted a dog stuck behind a Twoleg fence"
+        ],
+		"has_injuries": {
+	        "m_c": ["-any"]
+	    },
         "main_trait_constraint": [
             "fierce"
         ]
@@ -652,11 +837,9 @@
     {
         "id": "insecure_gen",
         "thoughts":[
-
             "Is wondering if {PRONOUN/m_c/subject} {VERB/m_c/are/is} good enough...",
             "Is thinking about where {PRONOUN/m_c/subject} {VERB/m_c/belong/belongs}",
             "Wonders if other cats laugh with {PRONOUN/m_c/object} or at {PRONOUN/m_c/object}...",
-            "Is hoping no cat saw {PRONOUN/m_c/object} trip just now",
             "Feels guilty about having taken {PRONOUN/m_c/poss} insecurities out on a friend",
             "Was scared by an owl last night and is too embarrassed to tell anyone",
             "Wonders if {PRONOUN/m_c/poss} fur is unkempt and whether others can notice",
@@ -668,6 +851,18 @@
             "Fakes it 'til {PRONOUN/m_c/subject} {VERB/m_c/make/makes} it",
             "Boasts loudly about all {PRONOUN/m_c/poss} accomplishments"
         ],
+        "main_trait_constraint": [
+            "insecure"
+        ]
+    },
+	{
+        "id": "insecure_gen_uninjured",
+        "thoughts":[
+            "Is hoping no cat saw {PRONOUN/m_c/object} trip just now"
+        ],
+		"has_injuries": {
+	        "m_c": ["-any"]
+	    },
         "main_trait_constraint": [
             "insecure"
         ]
@@ -688,18 +883,29 @@
             "Spitefully swears {PRONOUN/m_c/subject} {VERB/m_c/don't/doesn't} need others, {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} just fine!",
             "Doesn't know why {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} always alone",
             "Is thinking wistfully about the past...",
-            "Went on a long, moonlit stroll the other night",
-            "Took a long walk all on {PRONOUN/m_c/poss} own",
             "Stammers through a joke and ruins {PRONOUN/m_c/poss} own punchline",
             "Prefers the company of the wind and the birds",
-            "Wishes r_c would stop bothering {PRONOUN/m_c/object}",
+			"Wishes r_c would stop bothering {PRONOUN/m_c/object}",
             "Is surprised to find {PRONOUN/m_c/self} enjoying r_c's company"
         ],
         "main_trait_constraint": [
             "lonesome"
         ],
-        "random_living_status": [
+		"random_living_status": [
             "living"
+        ]
+    },
+	{
+        "id": "lonesome_uninjured_gen",
+        "thoughts":[
+            "Went on a long, moonlit stroll the other night",
+            "Took a long walk all on {PRONOUN/m_c/poss} own"
+        ],
+		"has_injuries": {
+	        "m_c": ["-any"]
+	    },
+        "main_trait_constraint": [
+            "lonesome"
         ]
     },
     {
@@ -717,6 +923,22 @@
             "Plans a fun surprise for r_c",
             "Bumps heads with r_c affectionately"
         ],
+        "main_trait_constraint": [
+            "loving"
+        ],
+        "random_living_status": [
+            "living"
+        ]
+    },
+	{
+        "id": "loving_gen_uninjured",
+        "thoughts":[
+            "Presses against a cat who looks like {PRONOUN/r_c/subject} {VERB/r_c/need/needs} a bit of support",
+            "Bumps heads with r_c affectionately"
+        ],
+		"has_injuries": {
+	        "m_c": ["-any"]
+	    },
         "main_trait_constraint": [
             "loving"
         ],
@@ -766,20 +988,35 @@
     {
         "id": "playful_gen",
         "thoughts":[
-            "Pounced on a stray leaf with satisfaction",
             "Seems to be playing with {PRONOUN/m_c/poss} food",
-            "Is play-fighting with friends",
             "Is playing a game of counting stones",
             "Has been joking around a bit too much recently",
             "Is cracking jokes",
-            "Is chasing {PRONOUN/m_c/poss} own tail, making others laugh",
-            "Is happily chasing a butterfly",
-            "Is running after a colorful beetle",
             "Is letting out mrrows of laughter",
             "Is making up songs and encouraging others to join in",
             "Gets caught mid-prank and makes up an excuse",
             "Makes up a silly story to amuse r_c"
         ],
+        "random_living_status": [
+            "living"
+        ],
+        "main_trait_constraint": [
+            "playful"
+        ]
+    },
+	{
+        "id": "playful_gen_uninjured",
+        "thoughts":[
+            "Pounced on a stray leaf with satisfaction",
+            "Is play-fighting with friends",
+            "Is chasing {PRONOUN/m_c/poss} own tail, making others laugh",
+            "Is happily chasing a butterfly",
+            "Is running after a colorful beetle",
+            "Gets caught mid-prank and makes up an excuse"
+        ],
+		"has_injuries": {
+	        "m_c": ["-any"]
+	    },
         "random_living_status": [
             "living"
         ],
@@ -807,11 +1044,22 @@
             "Isn't sure {PRONOUN/m_c/subject} should be idling around at the moment",
             "Plans on going to sleep early tonight",
             "Deeply apologizes for a mistake {PRONOUN/m_c/subject}{VERB/m_c/'ve/'s} made and tries to fix it",
-            "Goes to bed early so {PRONOUN/m_c/subject} can work more tomorrow",
             "Remembers to eat breakfast to keep {PRONOUN/m_c/poss} strength up",
             "Rests for exactly as long as {PRONOUN/m_c/subject} {VERB/m_c/need/needs} to before resuming work",
             "Always makes a plan before launching into action"
         ],
+        "main_trait_constraint": [
+            "responsible"
+        ]
+    },
+	{
+        "id": "responsible_gen_uninjured",
+        "thoughts":[
+            "Goes to bed early so {PRONOUN/m_c/subject} can work more tomorrow"
+        ],
+		"has_injuries": {
+	        "m_c": ["-any"]
+	    },
         "main_trait_constraint": [
             "responsible"
         ]
@@ -833,9 +1081,7 @@
         "id": "shameless_gen",
         "thoughts":[
             "Is snoring at a ridiculous volume",
-            "Is laughing at a dog stuck behind a Twoleg fence",
             "Is eating and chewing very loudly",
-            "Stumbled into mud earlier and has yet to wash",
             "Is fishing for compliments on {PRONOUN/m_c/poss} recently groomed fur",
             "Lies through {PRONOUN/m_c/poss} teeth",
             "Doesn't apologize, even though everyone knows {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} in the wrong",
@@ -846,6 +1092,22 @@
             "Steals r_c's punchline",
             "Retells r_c's story as if it happened to {PRONOUN/m_c/object}"
         ],
+        "main_trait_constraint": [
+            "shameless"
+        ],
+        "random_living_status": [
+            "living"
+        ]
+    },
+	{
+        "id": "shameless_gen_uninjured",
+        "thoughts":[
+            "Is laughing at a dog stuck behind a Twoleg fence",
+            "Stumbled into mud earlier and has yet to wash"
+        ],
+		"has_injuries": {
+	        "m_c": ["-any"]
+	    },
         "main_trait_constraint": [
             "shameless"
         ],
@@ -879,7 +1141,6 @@
         "thoughts":[
             "Doesn't understand why cats stare at {PRONOUN/m_c/object} the way they do",
             "Won a staring contest against a cat who was not participating",
-            "Is chasing a butterfly",
             "Stares at random cats",
             "Is telling stories that only make sense to {PRONOUN/m_c/object}",
             "Is staring intently at something no other cat can see",
@@ -889,18 +1150,30 @@
             "Is gnawing on a stick",
             "Is collecting the bones of prey",
             "Is drawing symbols in the dirt with {PRONOUN/m_c/poss} claws",
-            "Paces back and forth",
             "Is zoning out",
             "Is barking like a dog — somehow",
             "Was found talking to a tree the other day",
-            "Was walking on {PRONOUN/m_c/poss} forelimbs for a bit",
             "Seems to have come up with {PRONOUN/m_c/poss} own secret language",
             "Wishes others didn't think {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} so weird",
             "Practices bird calls",
             "Befriends a pebble",
-            "Rolls around in flowers",
             "Sneezes eleven times in a row"
         ],
+        "main_trait_constraint": [
+            "strange"
+        ]
+    },
+	{
+        "id": "strange_gen_uninjured",
+        "thoughts":[
+            "Is chasing a butterfly",
+            "Paces back and forth",
+            "Was walking on {PRONOUN/m_c/poss} forelimbs for a bit",
+            "Rolls around in flowers"
+        ],
+		"has_injuries": {
+	        "m_c": ["-any"]
+	    },
         "main_trait_constraint": [
             "strange"
         ]
@@ -922,17 +1195,31 @@
     {
         "id": "sneaky_gen",
         "thoughts":[
-            "Taunted a dog stuck behind a Twoleg fence",
             "Is acting suspicious",
             "Is licking {PRONOUN/m_c/poss} chops after an unknown tasty treat",
             "Is snooping around",
             "Is startling cats by appearing suddenly",
             "Knows that even the most paranoid rabbit would be no match for {PRONOUN/m_c/object}",
             "Hasn't been seen in a while",
+            "Lies easily and confidently to r_c"
+        ],
+        "random_living_status": [
+            "living"
+        ],
+        "main_trait_constraint": [
+            "sneaky"
+        ]
+    },
+	{
+        "id": "sneaky_gen_uninjured",
+        "thoughts":[
+            "Taunted a dog stuck behind a Twoleg fence",
             "Practices walking silently over dead leaves",
-            "Lies easily and confidently to r_c",
             "Rolls around in wild garlic to mask {PRONOUN/m_c/poss} scent"
         ],
+		"has_injuries": {
+	        "m_c": ["-any"]
+	    },
         "random_living_status": [
             "living"
         ],
@@ -985,6 +1272,20 @@
         "random_living_status": [
             "living"
         ],
+        "main_trait_constraint": [
+            "troublesome"
+        ]
+    },
+	{
+        "id": "troublesome_gen_uninjured",
+        "thoughts":[
+            "Won't stop pulling pranks",
+            "Taunted a dog stuck behind a Twoleg fence",
+            "Climbed up a tree and nearly fell out",
+        ],
+		"has_injuries": {
+	        "m_c": ["-any"]
+	    },
         "main_trait_constraint": [
             "troublesome"
         ]
