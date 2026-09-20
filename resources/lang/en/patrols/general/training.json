@@ -30568,7 +30568,7 @@
                 "involved_cats": {
                     "s_c0": {
                         "prior_abbreviation": [
-                            "any"
+                            "-p_l"
                         ],
                         "stat": {
                             "skill": [
@@ -32135,7 +32135,7 @@
                 "relationship_changes": [
                     {
                         "cats_from": [
-                            "s_c0"
+                            "r_c0"
                         ],
                         "cats_to": [
                             "p_l"
@@ -32155,7 +32155,7 @@
                             "p_l"
                         ],
                         "cats_to": [
-                            "s_c0"
+                            "r_c0"
                         ],
                         "values": [
                             "respect",
@@ -32465,7 +32465,7 @@
                             "patrol_cats"
                         ],
                         "cats_to": [
-                            "r_c0"
+                            "s_c0"
                         ],
                         "values": [
                             "respect",
@@ -33544,7 +33544,7 @@
             {
                 "frequency": 4,
                 "strings": [
-                    "p_l pads confidently through c_n territory. There's a particular peace in exploring {PRONOUN/p_l/poss} beloved home, {PRONOUN/p_l/poss} ears pricked up curiously whenever {PRONOUN/p_l/subject} {VERB/p_l/spot/spots} how the seasons and weather have reshaped it since {PRONOUN/p_l/subject} last passed this way."
+                    "s_c0 pads confidently through c_n territory. There's a particular peace in exploring {PRONOUN/s_c0/poss} beloved home, {PRONOUN/s_c0/poss} ears pricked up curiously whenever {PRONOUN/s_c0/subject} {VERB/s_c0/spot/spots} how the seasons and weather have reshaped it since {PRONOUN/s_c0/subject} last passed this way."
                 ],
                 "involved_cats": {
                     "s_c0": {
@@ -33854,7 +33854,7 @@
                         "amount": 10,
                         "log": {
                             "cats_from": "cat_from had so much fun training alone with cat_to that {PRONOUN/cat_from/subject} {VERB/cat_from/were/was} surprised by how late it got.",
-                            "cats_to": "p_l was happy to have s_c0 all to {PRONOUN/p_l/self} during a romantic evening training session."
+                            "cats_to": "cat_to was happy to have cat_from all to {PRONOUN/cat_to/self} during a romantic evening training session."
                         }
                     }
                 ]
@@ -34047,7 +34047,7 @@
                             "p_l"
                         ],
                         "cats_from": [
-                            "r_c0"
+                            "s_c0"
                         ],
                         "mutual": true,
                         "values": [
@@ -34056,7 +34056,7 @@
                         ],
                         "amount": 10,
                         "log": {
-                            "cats_from": "p_l was highly appreciative of s_c0's hunting prowess during a romantic evening training session together."
+                            "cats_from": "cat_to was highly appreciative of cat_from's hunting prowess during a romantic evening training session together."
                         }
                     }
                 ]
@@ -34086,7 +34086,7 @@
                             "p_l"
                         ],
                         "cats_from": [
-                            "r_c0"
+                            "s_c0"
                         ],
                         "mutual": true,
                         "values": [
@@ -34095,7 +34095,7 @@
                         ],
                         "amount": 10,
                         "log": {
-                            "cats_from": "p_l was highly appreciative of s_c0's hunting prowess during a romantic evening training session together."
+                            "cats_from": "cat_to was highly appreciative of cat_from's hunting prowess during a romantic evening training session together."
                         }
                     }
                 ]
@@ -34125,7 +34125,7 @@
                             "p_l"
                         ],
                         "cats_from": [
-                            "r_c0"
+                            "s_c0"
                         ],
                         "mutual": true,
                         "values": [
@@ -34134,7 +34134,7 @@
                         ],
                         "amount": 10,
                         "log": {
-                            "cats_from": "p_l was highly appreciative of s_c0's hunting prowess during a romantic evening training session together."
+                            "cats_from": "cat_to was highly appreciative of cat_from's hunting prowess during a romantic evening training session together."
                         }
                     }
                 ]
@@ -34164,7 +34164,7 @@
                             "p_l"
                         ],
                         "cats_from": [
-                            "r_c0"
+                            "s_c0"
                         ],
                         "mutual": true,
                         "values": [
@@ -34173,7 +34173,7 @@
                         ],
                         "amount": 10,
                         "log": {
-                            "cats_from": "p_l was highly appreciative of s_c0's hunting prowess during a romantic evening training session together."
+                            "cats_from": "cat_to was highly appreciative of cat_from's hunting prowess during a romantic evening training session together."
                         }
                     }
                 ]
@@ -34204,7 +34204,7 @@
                             "p_l"
                         ],
                         "cats_from": [
-                            "r_c0"
+                            "s_c0"
                         ],
                         "mutual": true,
                         "values": [
@@ -34213,7 +34213,7 @@
                         ],
                         "amount": 10,
                         "log": {
-                            "cats_from": "p_l was highly appreciative of s_c0's hunting prowess during a romantic evening training session together."
+                            "cats_from": "cat_to was highly appreciative of cat_from's hunting prowess during a romantic evening training session together."
                         }
                     }
                 ]
@@ -34243,7 +34243,7 @@
                             "p_l"
                         ],
                         "cats_from": [
-                            "r_c0"
+                            "s_c0"
                         ],
                         "mutual": true,
                         "values": [
@@ -34252,7 +34252,7 @@
                         ],
                         "amount": 10,
                         "log": {
-                            "cats_from": "p_l was highly appreciative of s_c0's hunting prowess during a romantic evening training session together."
+                            "cats_from": "cat_to was highly appreciative of cat_from's hunting prowess during a romantic evening training session together."
                         }
                     }
                 ]
@@ -34521,7 +34521,7 @@
                         ],
                         "amount": 8,
                         "log": {
-                            "cats_from": "s_c0 indulged r_c1 and let {PRONOUN/r_c1/object} run off during training."
+                            "cats_from": "cat_from indulged cat_to and let {PRONOUN/cat_to/object} run off during training."
                         }
                     }
                 ]
