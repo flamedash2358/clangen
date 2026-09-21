@@ -28667,7 +28667,7 @@
                             ]
                         },
                         "prior_abbreviation": [
-                            "any"
+                            "p_l"
                         ]
                     }
                 },
@@ -28687,7 +28687,7 @@
                         ],
                         "amount": 15,
                         "log": {
-                            "cats_from": "cat_from was impressed by s_c0's battle moves in a training session and wanted to learn to fight like {PRONOUN/s_c0/object}."
+                            "cats_from": "cat_from was impressed by cat_to's battle moves in a training session and wanted to learn to fight like {PRONOUN/cat_to/object}."
                         }
                     },
                     {
@@ -28703,7 +28703,7 @@
                         ],
                         "amount": 8,
                         "log": {
-                            "cats_from": "s_c0 enjoyed showing off in front of cat_to and the other apprentices."
+                            "cats_from": "cat_from enjoyed showing off in front of cat_to and the other apprentices."
                         }
                     }
                 ]
@@ -28723,7 +28723,7 @@
                             ]
                         },
                         "prior_abbreviation": [
-                            "any"
+                            "-p_l"
                         ]
                     }
                 },
@@ -28743,7 +28743,7 @@
                         ],
                         "amount": 10,
                         "log": {
-                            "cats_from": "cat_from enjoyed learning a new battle move from p_l."
+                            "cats_from": "cat_from enjoyed learning a new battle move from cat_to."
                         }
                     },
                     {
@@ -28760,7 +28760,7 @@
                         ],
                         "amount": 15,
                         "log": {
-                            "cats_from": "s_c0 felt pleased when p_l told {PRONOUN/s_c0/object} {PRONOUN/s_c0/subject}'d make a wonderful mentor."
+                            "cats_from": "cat_from felt pleased when cat_to told {PRONOUN/cat_from/object} {PRONOUN/cat_from/subject}'d make a wonderful mentor."
                         }
                     },
                     {
@@ -28777,7 +28777,7 @@
                         ],
                         "amount": 10,
                         "log": {
-                            "cats_from": "p_l was impressed by how helpful s_c0 was during a training session."
+                            "cats_from": "cat_from was impressed by how helpful cat_to was during a training session."
                         }
                     }
                 ]
@@ -28796,7 +28796,7 @@
                             ]
                         },
                         "prior_abbreviation": [
-                            "any"
+                            "p_l"
                         ]
                     }
                 },
@@ -28816,7 +28816,7 @@
                         ],
                         "amount": 15,
                         "log": {
-                            "cats_from": "cat_from really enjoyed learning a new battle move from p_l."
+                            "cats_from": "cat_from really enjoyed learning a new battle move from cat_to."
                         }
                     }
                 ]
@@ -28850,7 +28850,7 @@
                             ]
                         },
                         "prior_abbreviation": [
-                            "any"
+                            "p_l"
                         ]
                     }
                 },
@@ -28870,7 +28870,7 @@
                         ],
                         "amount": 18,
                         "log": {
-                            "cats_from": "cat_from really enjoyed learning a new battle move from p_l."
+                            "cats_from": "cat_from really enjoyed learning a new battle move from cat_to."
                         }
                     },
                     {
@@ -28906,7 +28906,7 @@
                             ]
                         },
                         "prior_abbreviation": [
-                            "any"
+                            "p_l"
                         ]
                     }
                 },
@@ -28926,7 +28926,7 @@
                         ],
                         "amount": 15,
                         "log": {
-                            "cats_from": "cat_from enjoyed racing s_c0 and then learning a new battle move from {PRONOUN/s_c0/object}."
+                            "cats_from": "cat_from enjoyed racing cat_to and then learning a new battle move from {PRONOUN/cat_to/object}."
                         }
                     }
                 ]
@@ -28945,7 +28945,7 @@
                             ]
                         },
                         "prior_abbreviation": [
-                            "any"
+                            "p_l"
                         ]
                     }
                 },
@@ -28965,7 +28965,7 @@
                         ],
                         "amount": 15,
                         "log": {
-                            "cats_from": "cat_from had a lot of fun playing a training game with s_c0."
+                            "cats_from": "cat_from had a lot of fun playing a training game with cat_to."
                         }
                     }
                 ]
@@ -28996,7 +28996,7 @@
                             ]
                         },
                         "prior_abbreviation": [
-                            "any"
+                            "p_l"
                         ]
                     }
                 },
@@ -29016,7 +29016,7 @@
                         ],
                         "amount": 15,
                         "log": {
-                            "cats_from": "cat_from had a lot of fun playing a training game with s_c0."
+                            "cats_from": "cat_from had a lot of fun playing a training game with cat_to."
                         }
                     },
                     {
@@ -29048,7 +29048,7 @@
                 "relationship_changes": [
                     {
                         "cats_to": [
-                            "s_c0"
+                            "p_l"
                         ],
                         "cats_from": [
                             "apprentice"
@@ -29059,7 +29059,7 @@
                         ],
                         "amount": -8,
                         "log": {
-                            "cats_from": "cat_from didn't learn much when p_l took {PRONOUN/cat_from/object} out for training."
+                            "cats_from": "cat_from didn't learn much when cat_to took {PRONOUN/cat_from/object} out for training."
                         }
                     }
                 ]
@@ -29078,7 +29078,7 @@
                             ]
                         },
                         "prior_abbreviation": [
-                            "any"
+                            "p_l"
                         ]
                     }
                 },
@@ -29097,7 +29097,7 @@
                         ],
                         "amount": 10,
                         "log": {
-                            "cats_from": "cat_from pestered s_c0 about {PRONOUN/s_c0/poss} secret hunting tricks, but {PRONOUN/s_c0/subject} wouldn't let them slip, which means they must be extra-secret and very cool..."
+                            "cats_from": "cat_from pestered cat_to about {PRONOUN/cat_to/poss} secret hunting tricks, but {PRONOUN/cat_to/subject} wouldn't let them slip, which means they must be extra-secret and very cool..."
                         }
                     },
                     {
@@ -29113,7 +29113,7 @@
                         ],
                         "amount": -8,
                         "log": {
-                            "cats_from": "s_c0 had an aggravating training patrol trying to teach battle moves to cat_to and a gang of apprentices who wouldn't shut up about {PRONOUN/s_c0/poss} \"secret hunting tricks.\""
+                            "cats_from": "cat_from had an aggravating training patrol trying to teach battle moves to cat_to and a gang of apprentices who wouldn't shut up about {PRONOUN/cat_from/poss} \"secret hunting tricks.\""
                         }
                     }
                 ]
@@ -29132,7 +29132,7 @@
                             ]
                         },
                         "prior_abbreviation": [
-                            "any"
+                            "-p_l"
                         ]
                     }
                 },
@@ -29151,7 +29151,7 @@
                         ],
                         "amount": -8,
                         "log": {
-                            "cats_from": "cat_from didn't learn much when p_l took {PRONOUN/cat_from/object} out for training."
+                            "cats_from": "cat_from didn't learn much when cat_to took {PRONOUN/cat_from/object} out for training."
                         }
                     },
                     {
@@ -29197,7 +29197,7 @@
                             ]
                         },
                         "prior_abbreviation": [
-                            "any"
+                            "p_l"
                         ]
                     }
                 },
@@ -29216,7 +29216,7 @@
                         ],
                         "amount": -8,
                         "log": {
-                            "cats_from": "cat_from didn't learn much when p_l took {PRONOUN/cat_from/object} out for training."
+                            "cats_from": "cat_from didn't learn much when cat_to took {PRONOUN/cat_from/object} out for training."
                         }
                     },
                     {
@@ -29280,7 +29280,7 @@
                             ]
                         },
                         "prior_abbreviation": [
-                            "any"
+                            "p_l"
                         ]
                     }
                 },
@@ -29299,7 +29299,7 @@
                         ],
                         "amount": -8,
                         "log": {
-                            "cats_from": "cat_from didn't learn much when p_l took {PRONOUN/cat_from/object} out for training."
+                            "cats_from": "cat_from didn't learn much when cat_to took {PRONOUN/cat_from/object} out for training."
                         }
                     },
                     {
