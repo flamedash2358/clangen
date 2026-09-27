@@ -8043,7 +8043,11 @@
             "Drowns in memories",
             "Needs some time alone with {PRONOUN/m_c/poss} grief",
             "Remembers things that used to bring {PRONOUN/m_c/object} joy",
-            "Sat and stared at nothing the entire day"
+            "Sat and stared at nothing the entire day",
+            "Feels numb today",
+            "Is feeling inexplicably off today",
+            "Wonders why {PRONOUN/m_c/poss} emotions feel duller than normal",
+            "Wants to claw at {PRONOUN/m_c/poss} haunting thoughts"
         ],
         "involved_cats": {
             "m_c": {
@@ -8059,7 +8063,10 @@
         "event_id": "lasting_grief_gen_to_alive_gen",
         "strings": [
             "Worries about losing r_c too",
-            "Puts on a smile for r_c"
+            "Puts on a smile for r_c",
+            "Exagerrates {PRONOUN/m_c/poss} emotions for r_c",
+            "Feels conflicted after r_c comments on {PRONOUN/m_c/poss} lack of reaction",
+            "Is filled with joy when r_c is able to get a hearty laugh out of {PRONOUN/m_c/object}"
         ],
         "involved_cats": {
             "m_c": {
@@ -8087,7 +8094,11 @@
             "Is comforted by r_c after a flashback",
             "Doesn't seem to enjoy hunting anymore",
             "Is avoiding {PRONOUN/m_c/poss} Clanmates",
-            "Is startled after r_c snuck up behind {PRONOUN/m_c/object}"
+            "Is startled after r_c snuck up behind {PRONOUN/m_c/object}",
+            "Feels {PRONOUN/m_c/poss} heart skip a beat at a familiar sight",
+            "Wonders what set {PRONOUN/m_c/object} off earlier today",
+            "Is annoyed when {PRONOUN/m_c/poss} body tenses up at something minor",
+            "Hides that r_c accidentally said something to tip {PRONOUN/m_c/object} off"
         ],
         "involved_cats": {
             "m_c": {
