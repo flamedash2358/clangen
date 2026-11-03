@@ -5,6 +5,10 @@
             "many": "pale"
         },
         "FULLWHITE": "white",
+        "CHINCHILLA": {
+            "one": "pale",
+            "many": "pale"
+        },
         "PALEGREY": {
             "one": "gray",
             "many": "pale gray"
